@@ -8,6 +8,12 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.32.02 (May 11, 2016)
+-----------------------
+- Moved map db info from core Atlas to this module for better maintenance
+- Added maps' additional tooltips
+
+
 v1.32.01 (May 3, 2016)
 ------------------------
 - Updated Serpentshrine Cavern map to add elevator point

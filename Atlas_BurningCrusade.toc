@@ -8,11 +8,13 @@
 ## Notes-deDE: Burning Crusade Instanzkarten
 ## Notes-zhTW: 燃燒的遠征副本地圖模組
 ## Notes-zhCN: 燃烧的远征地图
-## Version: 1.32.01
+## Version: 1.32.02
 ## Author: arith, Dynaletik, dubcat, Resike
-## X-Date: May 3, 2016
+## X-Date: May 11, 2016
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-Email: atlas.addon@gmail.com
 ## X-Website: http://www.atlasmod.com
 ## X-Category: Map
 ## RequiredDeps: Atlas
+
+Atlas_BurningCrusade_DB.lua
