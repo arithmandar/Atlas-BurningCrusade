@@ -8,6 +8,14 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.33.00 (Jul. 19, 2016)
+------------------------
+- Toc updated to support WoW Legion pre-patch (7.0.3)
+- Updated boss info for the following ones:
+  - Black Temple, Serpentshrine Cavern, Hyjal Summit, Gruul's Lair, Magtheridon's Lair, 
+    Karazhan, Sunwell Plateau, Tempest Keep
+
+
 v1.32.02 (May 11, 2016)
 -----------------------
 - Moved map db info from core Atlas to this module for better maintenance
