@@ -9,7 +9,7 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 ==============
 
 
-v1.35.01 (Oct. 27, 2016)
+v1.35.01 (Nov. 15, 2016)
 ------------------------
 - Corrected Maiden of Virtue's ID in Karazhan
 - Nightbane is no longer a major boss in Karazhan
