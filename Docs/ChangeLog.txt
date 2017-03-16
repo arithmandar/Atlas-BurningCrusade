@@ -8,6 +8,12 @@ Copyright 2011 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.38.00 (Mar. 16, 2017)
+------------------------
+- Translation update:
+  - Korean (netaras)
+
+
 v1.36.00 (Jan. 16, 2017)
 ------------------------
 - Added to support quick map switching by clicking the Next or 
