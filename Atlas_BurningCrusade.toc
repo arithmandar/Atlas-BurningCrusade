@@ -29,7 +29,7 @@
 ## Notes: Burning Crusade Dungeon Maps
 ## Notes-zhTW: 燃燒的遠征副本地圖模組
 #@end-debug@
-## Version: 1.38.00
+## Version: 1.38.01
 ## Author: arith, Dynaletik, dubcat
 ## X-Date: @project-date-iso@
 ## X-Credits: Dan Gilbert, Lothaer
