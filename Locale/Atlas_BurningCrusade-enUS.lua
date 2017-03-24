@@ -229,12 +229,13 @@ if L then
 	L["Drisella"] = "Drisella";
 
 	--Karazhan (Entrance)
-	L["Archmage Leryda"] = "Archmage Leryda";
-	L["Archmage Alturus"] = "Archmage Alturus";
-	L["Apprentice Darius"] = "Apprentice Darius";
-	L["Stairs to Underground Pond"] = "Stairs to Underground Pond";
-	L["Stairs to Underground Well"] = "Stairs to Underground Well";
+	--L["Archmage Leryda"] = "Archmage Leryda";
+	--L["Archmage Alturus"] = "Archmage Alturus";
+	--L["Apprentice Darius"] = "Apprentice Darius";
+	--L["Stairs to Underground Pond"] = "Stairs to Underground Pond";
+	--L["Stairs to Underground Well"] = "Stairs to Underground Well";
 	L["Charred Bone Fragment"] = "Charred Bone Fragment";
+	L["Lydia Accoste"] = "Lydia Accoste";
 
 	--Karazhan Start
 	L["Baroness Dorothea Millstipe"] = "Baroness Dorothea Millstipe";

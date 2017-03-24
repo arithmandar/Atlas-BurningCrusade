@@ -8,8 +8,10 @@ Copyright 2011 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
-v1.38.01 (Mar. xx, 2017)
+v1.38.01 (Mar. 24, 2017)
 ------------------------
+- Karazhan entrance map revamped
+
 
 v1.38.00 (Mar. 16, 2017)
 ------------------------
