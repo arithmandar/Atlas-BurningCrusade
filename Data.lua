@@ -1539,8 +1539,6 @@ db.DropDownLayouts = {
 			"TempestKeepBotanica",		-- Burning Crusade
 			"TempestKeepEnt",		-- Burning Crusade
 			"TempestKeepMechanar",		-- Burning Crusade
-			"TempleOfTheJadeSerpent",	-- Burning Crusade
-			"VioletHold",			-- Burning Crusade
 		},
 		[ATLAS_DDL_PARTYSIZE_10] = {
 			"KarazhanEnd",			-- Burning Crusade
@@ -1581,7 +1579,6 @@ db.DropDownLayouts = {
 			"CoTHyjal",			-- Burning Crusade
 			"CoTHyjalEnt",			-- Burning Crusade
 			"CoTOldHillsbrad",		-- Burning Crusade
-			"CoTOldStratholme",		-- Burning Crusade
 			"GruulsLair",			-- Burning Crusade
 			"HCBloodFurnace",		-- Burning Crusade
 			"HCHellfireRamparts",		-- Burning Crusade
@@ -1595,7 +1592,6 @@ db.DropDownLayouts = {
 			"TempestKeepBotanica",		-- Burning Crusade
 			"TempestKeepMechanar",		-- Burning Crusade
 			"TempestKeepTheEye",		-- Burning Crusade
-			"VioletHold",			-- Burning Crusade
 		},
 		[ATLAS_DDL_TYPE_ENTRANCE] = {
 			"AuchindounEnt",		-- Burning Crusade
