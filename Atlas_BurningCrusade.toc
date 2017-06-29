@@ -29,7 +29,7 @@
 ## Notes: Burning Crusade Dungeon Maps
 ## Notes-zhTW: 燃燒的遠征副本地圖模組
 #@end-debug@
-## Version: 1.39.00
+## Version: @project-version@
 ## Author: arith, Dynaletik, dubcat
 ## X-Date: @project-date-iso@
 ## X-Credits: Dan Gilbert, Lothaer
@@ -39,5 +39,5 @@
 ## RequiredDeps: Atlas
 
 Locale\Locales.xml
-Atlas_BurningCrusade.lua
-Atlas_BurningCrusade_DB.lua
+Core.lua
+Data.lua
