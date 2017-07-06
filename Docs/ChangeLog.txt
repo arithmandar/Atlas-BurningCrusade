@@ -8,6 +8,12 @@ Copyright 2011 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.42.01 (Jul. 06, 2017)
+------------------------
+- Change Atlas_GetBossName() to Atlas:GetBossName()
+- Enhanced sub-boss' presentation by calling Atlas:GetBossName()
+- Fixed wrong encounter ID in Karazhan
+
 v1.42.01 (Jun. 29, 2017)
 ------------------------
 - Removed redundant map setting
