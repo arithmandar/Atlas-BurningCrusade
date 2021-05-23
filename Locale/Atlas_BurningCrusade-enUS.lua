@@ -4,7 +4,7 @@
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 	Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-	Copyright 2011 ~ 2020 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
+	Copyright 2011 ~ 2021 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 
 	This file is part of Atlas.
 
@@ -65,6 +65,8 @@ if L then
 --*******************
 -- Burning Crusade Instances
 --*******************
+
+	L["Monk"] = "Monk";
 
 	--Auchindoun (Entrance)
 	L["Clarissa"] = "Clarissa";
@@ -229,15 +231,22 @@ if L then
 	L["Drisella"] = "Drisella";
 
 	--Karazhan (Entrance)
-	--L["Archmage Leryda"] = "Archmage Leryda";
-	--L["Archmage Alturus"] = "Archmage Alturus";
-	--L["Apprentice Darius"] = "Apprentice Darius";
-	--L["Stairs to Underground Pond"] = "Stairs to Underground Pond";
-	--L["Stairs to Underground Well"] = "Stairs to Underground Well";
+	L["Archmage Leryda"] = "Archmage Leryda";
+	L["Archmage Alturus"] = "Archmage Alturus";
+	L["Apprentice Darius"] = "Apprentice Darius";
+	L["Stairs to Underground Pond"] = "Stairs to Underground Pond";
+	L["Stairs to Underground Well"] = "Stairs to Underground Well";
 	L["Charred Bone Fragment"] = "Charred Bone Fragment";
 	L["Lydia Accoste"] = "Lydia Accoste";
 
 	--Karazhan Start
+	L["Staircase to the Ballroom (Moroes)"] = "Staircase to the Ballroom (Moroes)"
+	L["Stairs to Upper Stable"] = "Stairs to Upper Stable"
+	L["Ramp to the Guest Chambers (Maiden)"] = "Ramp to the Guest Chambers (Maiden)"
+	L["Stairs to Opera House Orchestra Level"] = "Stairs to Opera House Orchestra Level"
+	L["Ramp from Mezzanine to Balcony"] = "Ramp from Mezzanine to Balcony"
+	L["Connection to Master's Terrace (Nightbane)"] = "Connection to Master's Terrace (Nightbane)"
+	L["Path to the Broken Stairs"] = "Path to the Broken Stairs"
 	L["Baroness Dorothea Millstipe"] = "Baroness Dorothea Millstipe";
 	L["Lady Catriona Von'Indi"] = "Lady Catriona Von'Indi";
 	L["Lady Keira Berrybuck"] = "Lady Keira Berrybuck";
