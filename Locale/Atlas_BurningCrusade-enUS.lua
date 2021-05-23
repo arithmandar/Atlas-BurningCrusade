@@ -85,6 +85,8 @@ if L then
 	L["Avatar of the Martyred"] = "Avatar of the Martyred";
 	L["D'ore"] = "D'ore";
 	L["Tormented Soulpriest"] = "Tormented Soulpriest";
+	L["Shirrak the Dead Watcher"] = "Shirrak the Dead Watcher"
+	L["Exarch Maladaar"] = "Exarch Maladaar"
 
 	--Auch: Mana-Tombs
 	L["Artificer Morphalius"] = "Artificer Morphalius";
@@ -93,12 +95,19 @@ if L then
 	L["Ambassador Pax'ivi"] = "Ambassador Pax'ivi";
 	L["Cryo-Engineer Sha'heen"] = "Cryo-Engineer Sha'heen";
 	L["Ethereal Transporter Control Panel"] = "Ethereal Transporter Control Panel";
+	L["Pandemonius"] = "Pandemonius"
+	L["Tavarok"] = "Tavarok"
+	L["Nexus-Prince Shaffar"] = "Nexus-Prince Shaffar"
+	L["Yor"] = "Yor"
 
 	--Auch: Sethekk Halls
 	L["Isfar"] = "Isfar";
 	L["Dealer Vijaad"] = "Dealer Vijaad";
 	L["Lakka"] = "Lakka";
 	L["The Saga of Terokk"] = "The Saga of Terokk";
+	L["Darkweaver Syth"] = "Darkweaver Syth"
+	L["Anzu"] = "Anzu"
+	L["Talon King Ikiss"] = "Talon King Ikiss"
 
 	--Auch: Shadow Labyrinth
 	L["Field Commander Mahfuun"] = "Field Commander Mahfuun";
@@ -106,6 +115,10 @@ if L then
 	L["The Codex of Blood"] = "The Codex of Blood";
 	L["First Fragment Guardian"] = "First Fragment Guardian";
 	L["Spy To'gun"] = "Spy To'gun";
+	L["Ambassador Hellmaw"] = "Ambassador Hellmaw"
+	L["Blackheart the Inciter"] = "Blackheart the Inciter"
+	L["Grandmaster Vorpil"] = "Grandmaster Vorpil"
+	L["Murmur"] = "Murmur"
 
 	--Black Temple (Start)
 	L["Towards Reliquary of Souls"] = "Towards Reliquary of Souls";
@@ -116,16 +129,38 @@ if L then
 	L["Aluyen <Reagents>"] = "Aluyen <Reagents>";
 	L["Okuno <Ashtongue Deathsworn Quartermaster>"] = "Okuno <Ashtongue Deathsworn Quartermaster>";
 	L["Seer Kanai"] = "Seer Kanai";
+	L["High Warlord Naj'entus"] = "High Warlord Naj'entus"
+	L["Supremus"] = "Supremus"
+	L["Shade of Akama"] = "Shade of Akama"
 
 	--Black Temple (Basement)
+	L["Gurtogg Bloodboil"] = "Gurtogg Bloodboil"
+	L["Reliquary of Souls"] = "Reliquary of Souls"
+	L["Essence of Suffering"] = "Essence of Suffering"
+	L["Essence of Desire"] = "Essence of Desire"
+	L["Essence of Anger"] = "Essence of Anger"
+	L["Teron Gorefiend"] = "Teron Gorefiend"
 
 	--Black Temple (Top)
+	L["Mother Shahraz"] = "Mother Shahraz"
+	L["The Illidari Council"] = "The Illidari Council"
+	L["Gathios the Shatterer"] = "Gathios the Shatterer"
+	L["High Nethermancer Zerevor"] = "High Nethermancer Zerevor"
+	L["Lady Malande"] = "Lady Malande"
+	L["Veras Darkshadow"] = "Veras Darkshadow"
+	L["Illidan Stormrage"] = "Illidan Stormrage"
 
 	--Coilfang Reservoir (Entrance)
 	L["Mortog Steamhead"] = "Mortog Steamhead";
 
 	--CFR: Serpentshrine Cavern
 	L["Seer Olum"] = "Seer Olum";
+	L["Hydross the Unstable"] = "Hydross the Unstable"
+	L["The Lurker Below"] = "The Lurker Below"
+	L["Leotheras the Blind"] = "Leotheras the Blind"
+	L["Fathom-Lord Karathress"] = "Fathom-Lord Karathress"
+	L["Morogrim Tidewalker"] = "Morogrim Tidewalker"
+	L["Lady Vashj"] = "Lady Vashj"
 
 	--CFR: The Slave Pens
 	L["Nahuud"] = "Nahuud";
@@ -133,16 +168,27 @@ if L then
 	L["Weeder Greenthumb"] = "Weeder Greenthumb";
 	L["Skar'this the Heretic"] = "Skar'this the Heretic";
 	L["Naturalist Bite"] = "Naturalist Bite";
+	L["Mennu the Betrayer"] = "Mennu the Betrayer"
+	L["Rokmar the Crackler"] = "Rokmar the Crackler"
+	L["Quagmirran"] = "Quagmirran"
 
 	--CFR: The Steamvault
 	L["Windcaller Claw"] = "Windcaller Claw";
 	L["Main Chambers Access Panel"] = "Main Chambers Access Panel";
 	L["Second Fragment Guardian"] = "Second Fragment Guardian";
+	L["Hydromancer Thespia"] = "Hydromancer Thespia"
+	L["Mekgineer Steamrigger"] = "Mekgineer Steamrigger"
+	L["Warlord Kalithresh"] = "Warlord Kalithresh"
 
 	--CFR: The Underbog
 	L["T'shu"] = "T'shu";
 	L["The Underspore"] = "The Underspore";
 	L["Earthbinder Rayge"] = "Earthbinder Rayge";
+	L["Hungarfen"] = "Hungarfen"
+	L["Ghaz'an"] = "Ghaz'an"
+	L["Swamplord Musel'ek"] = "Swamplord Musel'ek"
+	L["Claw"] = "Claw"
+	L["The Black Stalker"] = "The Black Stalker"
 
 	--Caverns of Time: Hyjal (Entrance)
 	L["Indormi <Keeper of Ancient Gem Lore>"] = "Indormi <Keeper of Ancient Gem Lore>";
@@ -201,6 +247,12 @@ if L then
 	L["Young Blanchy"] = "Young Blanchy";
 
 	--Gruul's Lair
+	L["High King Maulgar"] = "High King Maulgar"
+	L["Kiggler the Crazed"] = "Kiggler the Crazed"
+	L["Blindeye the Seer"] = "Blindeye the Seer"
+	L["Olm the Summoner"] = "Olm the Summoner"
+	L["Krosh Firehand"] = "Krosh Firehand"
+	L["Gruul the Dragonkiller"] = "Gruul the Dragonkiller"
 
 	--Hellfire Citadel (Entrance)
 	L["Steps and path to the Blood Furnace"] = "Steps and path to the Blood Furnace";
@@ -211,13 +263,21 @@ if L then
 	--HFC: The Blood Furnace
 	L["Gunny"] = "Gunny";
 	L["Caza'rez"] = "Caza'rez";
+	L["The Maker"] = "The Maker"
+	L["Broggok"] = "Broggok"
+	L["Keli'dan the Breaker"] = "Keli'dan the Breaker"
 
 	--HFC: Hellfire Ramparts
 	L["Advance Scout Chadwick"] = "Advance Scout Chadwick";
 	L["Stone Guard Stok'ton"] = "Stone Guard Stok'ton";
 	L["Reinforced Fel Iron Chest"] = "Reinforced Fel Iron Chest";
+	L["Watchkeeper Gargolmar"] = "Watchkeeper Gargolmar"
+	L["Omor the Unscarred"] = "Omor the Unscarred"
+	L["Vazruden the Herald"] = "Vazruden the Herald"
+	L["Nazan"] = "Nazan"
 
 	--HFC: Magtheridon's Lair
+	L["Magtheridon"] = "Magtheridon"
 
 	--HFC: The Shattered Halls
 	L["Shattered Hand Executioner"] = "Shattered Hand Executioner";
@@ -229,6 +289,10 @@ if L then
 	L["Captain Boneshatter"] = "Captain Boneshatter";
 	L["Randy Whizzlesprocket"] = "Randy Whizzlesprocket";
 	L["Drisella"] = "Drisella";
+	L["Grand Warlock Nethekurse"] = "Grand Warlock Nethekurse"
+	L["Blood Guard Porung"] = "Blood Guard Porung"
+	L["Warbringer O'mrogg"] = "Warbringer O'mrogg"
+	L["Warchief Kargath Bladefist"] = "Warchief Kargath Bladefist"
 
 	--Karazhan (Entrance)
 	L["Archmage Leryda"] = "Archmage Leryda";
@@ -266,6 +330,25 @@ if L then
 	L["Ebonlocke <The Noble>"] = "Ebonlocke <The Noble>";
 	L["Sebastian <The Organist>"] = "Sebastian <The Organist>";
 	L["Barnes <The Stage Manager>"] = "Barnes <The Stage Manager>";
+	L["Rokad the Ravager"] = "Rokad the Ravager"
+	L["Shadikith the Glider"] = "Shadikith the Glider"
+	L["Hyakiss the Lurker"] = "Hyakiss the Lurker"
+	L["Attumen the Huntsman"] = "Attumen the Huntsman"
+	L["Midnight"] = "Midnight"
+	L["Moroes"] = "Moroes"
+	L["Maiden of Virtue"] = "Maiden of Virtue"
+	L["Opera Hall"] = "Opera Hall"
+	L["The Big Bad Wolf"] = "The Big Bad Wolf"
+	L["Dorothee"] = "Dorothee"
+	L["Tito"] = "Tito"
+	L["Strawman"] = "Strawman"
+	L["Tinhead"] = "Tinhead"
+	L["Roar"] = "Roar"
+	L["The Crone"] = "The Crone"
+	L["Romulo & Julianne"] = "Romulo & Julianne"
+	L["Romulo"] = "Romulo"
+	L["Julianne"] = "Julianne"
+	L["Nightbane"] = "Nightbane"
 
 	--Karazhan End
 	L["Path to the Broken Stairs"] = "Path to the Broken Stairs";
@@ -281,6 +364,14 @@ if L then
 	L["Kamsis <The Conjurer>"] = "Kamsis <The Conjurer>";
 	L["Ythyar"] = "Ythyar";
 	L["Echo of Medivh"] = "Echo of Medivh";
+	L["Shade of Aran"] = "Shade of Aran"
+	L["Terestian Illhoof"] = "Terestian Illhoof"
+	L["Netherspite"] = "Netherspite"
+	L["Chess Event"] = "Chess Event"
+	L["Prince Malchezaar"] = "Prince Malchezaar"
+	L["The Curator"] = "The Curator"
+	L["Kil'rek"] = "Kil'rek"
+	L["Dust Covered Chest"] = "Dust Covered Chest"
 
 	--Magisters Terrace
 	L["Exarch Larethor"] = "Exarch Larethor";
@@ -297,20 +388,58 @@ if L then
 	L["Zelfan"] = "Zelfan";
 	L["Tyrith"] = "Tyrith";
 	L["Scrying Orb"] = "Scrying Orb";
+	L["Selin Fireheart"] = "Selin Fireheart"
+	L["Vexallus"] = "Vexallus"
+	L["Kalecgos"] = "Kalecgos"
+	L["Priestess Delrissa"] = "Priestess Delrissa"
+	L["Kael'thas Sunstrider"] = "Kael'thas Sunstrider"
 
 	--Sunwell Plateau
 	L["Madrigosa"] = "Madrigosa";
+	L["Sathrovarr the Corruptor"] = "Sathrovarr the Corruptor"
+	L["Brutallus"] = "Brutallus"
+	L["Felmyst"] = "Felmyst"
+	L["The Eredar Twins"] = "The Eredar Twins"
+	L["Grand Warlock Alythess"] = "Grand Warlock Alythess"
+	L["Lady Sacrolash"] = "Lady Sacrolash"
+	L["M'uru"] = "M'uru"
+	L["Entropius"] = "Entropius"
+	L["Kil'jaeden"] = "Kil'jaeden"
 
 	--TK: The Arcatraz
 	L["Millhouse Manastorm"] = "Millhouse Manastorm";
 	L["Third Fragment Guardian"] = "Third Fragment Guardian";
 	L["Udalo"] = "Udalo";
+	L["Zereketh the Unbound"] = "Zereketh the Unbound"
+	L["Dalliah the Doomsayer"] = "Dalliah the Doomsayer"
+	L["Wrath-Scryer Soccothrates"] = "Wrath-Scryer Soccothrates"
+	L["Harbinger Skyriss"] = "Harbinger Skyriss"
+	L["Warden Mellichar"] = "Warden Mellichar"
 
 	--TK: The Botanica
+	L["Commander Sarannis"] = "Commander Sarannis"
+	L["High Botanist Freywinn"] = "High Botanist Freywinn"
+	L["Thorngrin the Tender"] = "Thorngrin the Tender"
+	L["Laj"] = "Laj"
+	L["Warp Splinter"] = "Warp Splinter"
 
 	--TK: The Mechanar
 	L["Overcharged Manacell"] = "Overcharged Manacell";
+	L["Gatewatcher Gyro-Kill"] = "Gatewatcher Gyro-Kill"
+	L["Gatewatcher Iron-Hand"] = "Gatewatcher Iron-Hand"
+	L["Cache of the Legion"] = "Cache of the Legion"
+	L["Mechano-Lord Capacitus"] = "Mechano-Lord Capacitus"
+	L["Nethermancer Sepethrea"] = "Nethermancer Sepethrea"
+	L["Pathaleon the Calculator"] = "Pathaleon the Calculator"
 
 	--TK: The Eye
+	L["Al'ar"] = "Al'ar"
+	L["Void Reaver"] = "Void Reaver"
+	L["High Astromancer Solarian"] = "High Astromancer Solarian"
+	L["Kael'thas Sunstrider"] = "Kael'thas Sunstrider"
+	L["Thaladred the Darkener"] = "Thaladred the Darkener"
+	L["Master Engineer Telonicus"] = "Master Engineer Telonicus"
+	L["Grand Astromancer Capernian"] = "Grand Astromancer Capernian"
+	L["Lord Sanguinar"] = "Lord Sanguinar"
 
 end

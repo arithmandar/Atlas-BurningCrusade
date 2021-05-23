@@ -54,10 +54,10 @@ local addon = Atlas:GetModule(private.module_name)
 local function Atlas_GetBossName(bossname, encounterID, creatureIndex)
 	local BB = Atlas_GetLocaleLibBabble("LibBabble-Boss-3.0")
 
-	if (bossname and L[bossname]) then
-		bossname = L[bossname]
-	elseif (bossname and BB[bossname]) then
+	if (bossname and BB[bossname]) then
 		bossname = BB[bossname]
+	elseif (bossname and L[bossname]) then
+		bossname = L[bossname]
 	else
 		--bossname = bossname
 	end
