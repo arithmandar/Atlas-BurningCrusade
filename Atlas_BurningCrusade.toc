@@ -41,4 +41,4 @@
 Locale\Locales.xml
 Core.lua
 Data.lua
-ClassicData.lua
+Data-Classic.lua

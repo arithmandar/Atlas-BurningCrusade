@@ -818,8 +818,7 @@ if WoWClassicTBC then
 			ATLAS_DDL_CONTINENT_OUTLAND,
 		},
 		[ATLAS_DDL_LEVEL] = {
-			ATLAS_DDL_LEVEL_60TO70,
-			ATLAS_DDL_LEVEL_70TO80,
+			ATLAS_DDL_LEVEL_10TO30,
 		},
 		[ATLAS_DDL_EXPANSION] = {
 			ATLAS_DDL_EXPANSION_BC,
@@ -898,7 +897,7 @@ if WoWClassicTBC then
 			},
 		},
 		[ATLAS_DDL_LEVEL] = {
-			[ATLAS_DDL_LEVEL_60TO70] = {
+			[ATLAS_DDL_LEVEL_10TO30] = {
 				"CL_AuchAuchenaiCrypts",		-- Burning Crusade
 				"CL_AuchindounEnt",		-- Burning Crusade
 				"CL_AuchManaTombs",		-- Burning Crusade
@@ -917,8 +916,6 @@ if WoWClassicTBC then
 				"CL_TempestKeepArcatraz",		-- Burning Crusade
 				"CL_TempestKeepBotanica",		-- Burning Crusade
 				"CL_TempestKeepMechanar",		-- Burning Crusade
-			},
-			[ATLAS_DDL_LEVEL_70TO80] = {
 				"CL_BlackTempleBasement",		-- Burning Crusade
 				"CL_BlackTempleStart",		-- Burning Crusade
 				"CL_BlackTempleTop",		-- Burning Crusade
