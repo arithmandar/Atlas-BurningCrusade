@@ -8,6 +8,17 @@ Copyright 2011 ~ 2022 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.50.02 (Mar. 23, 2022)
+------------------------
+- Added maps: 
+  - Caverns of Time Entrance
+    - The Black Morass
+    - Hyjal Summit
+    - Old Hillsbrad Foothills
+  - Zul'Aman
+- Added dungeon level info
+- Update level range while select to show instance maps per level range
+
 v1.50.01 (Mar. 23, 2022)
 ------------------------
 - BCC ToC update to support WoW 2.5.4

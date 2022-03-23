@@ -85,7 +85,7 @@ if WoWClassicTBC then
 		CL_AuchindounEnt = {
 			ZoneName = { BZ["Auchindoun"]..ALC["L-Parenthesis"]..ALC["Entrance"]..ALC["R-Parenthesis"] },
 			Location = { BZ["Terokkar Forest"] },
-			LevelRange = "64-75",
+			LevelRange = "63-70",
 			MinLevel = "62",
 			PlayerLimit = { 5 },
 			Acronym = L["Auch"],
@@ -115,6 +115,7 @@ if WoWClassicTBC then
 		CL_AuchAuchenaiCrypts = {
 			ZoneName = { BZ["Auchindoun"]..ALC["Colon"]..BZ["Auchenai Crypts"] },
 			Location = { BZ["Terokkar Forest"] },
+			LevelRange = "64-70",
 			Acronym = L["AC"],
 			DungeonID = 149,
 			DungeonHeroicID = 178,
@@ -131,6 +132,7 @@ if WoWClassicTBC then
 		CL_AuchManaTombs = {
 			ZoneName = { BZ["Auchindoun"]..ALC["Colon"]..BZ["Mana-Tombs"] },
 			Location = { BZ["Terokkar Forest"] },
+			LevelRange = "63-70",
 			Acronym = L["MT"],
 			DungeonID = 148,
 			DungeonHeroicID = 179,
@@ -150,6 +152,7 @@ if WoWClassicTBC then
 		CL_AuchSethekkHalls = {
 			ZoneName = { BZ["Auchindoun"]..ALC["Colon"]..BZ["Sethekk Halls"] },
 			Location = { BZ["Terokkar Forest"] },
+			LevelRange = "66-70",
 			DungeonID = 150,
 			DungeonHeroicID = 180,
 			Acronym = L["Seth"],
@@ -168,6 +171,7 @@ if WoWClassicTBC then
 		CL_AuchShadowLabyrinth = {
 			ZoneName = { BZ["Auchindoun"]..ALC["Colon"]..BZ["Shadow Labyrinth"] },
 			Location = { BZ["Terokkar Forest"] },
+			LevelRange = "69-70",
 			DungeonID = 151,
 			DungeonHeroicID = 181,
 			Acronym = L["SL"],
@@ -187,6 +191,7 @@ if WoWClassicTBC then
 		CL_BlackTempleStart = {
 			ZoneName = { BZ["Black Temple"]..ALC["MapA"]..ALC["L-Parenthesis"]..ALC["Start"]..ALC["R-Parenthesis"] },
 			Location = { BZ["Shadowmoon Valley"] },
+			LevelRange = "70+",
 			DungeonID = 196,
 			Acronym = L["BT"],
 			PlayerLimit = { 25 },
@@ -213,6 +218,7 @@ if WoWClassicTBC then
 		CL_BlackTempleBasement = {
 			ZoneName = { BZ["Black Temple"]..ALC["MapB"]..ALC["L-Parenthesis"]..ALC["Basement"]..ALC["R-Parenthesis"] },
 			Location = { BZ["Shadowmoon Valley"] },
+			LevelRange = "70+",
 			DungeonID = 196,
 			Acronym = L["BT"],
 			PlayerLimit = { 25 },
@@ -236,6 +242,7 @@ if WoWClassicTBC then
 		CL_BlackTempleTop = {
 			ZoneName = { BZ["Black Temple"]..ALC["MapC"]..ALC["L-Parenthesis"]..ALC["Top"]..ALC["R-Parenthesis"] },
 			Location = { BZ["Shadowmoon Valley"] },
+			LevelRange = "70+",
 			DungeonID = 196,
 			Acronym = L["BT"],
 			PlayerLimit = { 25 },
@@ -258,7 +265,7 @@ if WoWClassicTBC then
 		CL_CoilfangReservoirEnt = {
 			ZoneName = { BZ["Coilfang Reservoir"]..ALC["L-Parenthesis"]..ALC["Entrance"]..ALC["R-Parenthesis"] },
 			Location = { BZ["Zangarmarsh"] },
-			LevelRange = "62-73",
+			LevelRange = "61-70",
 			MinLevel = "61",
 			PlayerLimit = { 5, 25},
 			Acronym = L["CR"],
@@ -275,6 +282,7 @@ if WoWClassicTBC then
 		CL_CFRSerpentshrineCavern = {
 			ZoneName = { BZ["Coilfang Reservoir"]..ALC["Colon"]..BZ["Serpentshrine Cavern"] },
 			Location = { BZ["Zangarmarsh"] },
+			LevelRange = "70+",
 			DungeonID = 194,
 			Acronym = L["SSC"],
 			PlayerLimit = { 25 },
@@ -294,6 +302,7 @@ if WoWClassicTBC then
 		CL_CFRTheSlavePens = {
 			ZoneName = { BZ["Coilfang Reservoir"]..ALC["Colon"]..BZ["The Slave Pens"] },
 			Location = { BZ["Zangarmarsh"] },
+			LevelRange = "61-69",
 			DungeonID = 140,
 			DungeonHeroicID = 184,
 			Acronym = L["SP"],
@@ -312,6 +321,7 @@ if WoWClassicTBC then
 		CL_CFRTheSteamvault = {
 			ZoneName = { BZ["Coilfang Reservoir"]..ALC["Colon"]..BZ["The Steamvault"] },
 			Location = { BZ["Zangarmarsh"] },
+			LevelRange = "69-70",
 			DungeonID = 147,
 			DungeonHeroicID = 185,
 			Acronym = L["SV"],
@@ -331,6 +341,7 @@ if WoWClassicTBC then
 		CL_CFRTheUnderbog = {
 			ZoneName = { BZ["Coilfang Reservoir"]..ALC["Colon"]..BZ["The Underbog"] },
 			Location = { BZ["Zangarmarsh"] },
+			LevelRange = "62-70",
 			DungeonID = 146,
 			DungeonHeroicID = 186,
 			Acronym = L["UB"],
@@ -350,6 +361,7 @@ if WoWClassicTBC then
 		CL_GruulsLair = {
 			ZoneName = { BZ["Gruul's Lair"] },
 			Location = { BZ["Blade's Edge Mountains"] },
+			LevelRange = "70+",
 			DungeonID = 177,
 			Acronym = L["GL"],
 			PlayerLimit = { 25 },
@@ -367,7 +379,7 @@ if WoWClassicTBC then
 		HellfireCitadelEnt = {
 			ZoneName = { BZ["Hellfire Citadel"]..ALC["L-Parenthesis"]..ALC["Entrance"]..ALC["R-Parenthesis"] },
 			Location = { BZ["Hellfire Peninsula"] },
-			LevelRange = "59-73",
+			LevelRange = "59-70",
 			MinLevel = "57",
 			PlayerLimit = { 5, 25},
 			Acronym = L["HC"],
@@ -384,6 +396,7 @@ if WoWClassicTBC then
 		CL_HCBloodFurnace = {
 			ZoneName = { BZ["Hellfire Citadel"]..ALC["Colon"]..BZ["The Blood Furnace"] },
 			Location = { BZ["Hellfire Peninsula"] },
+			LevelRange = "60-68",
 			DungeonID = 137,
 			DungeonHeroicID = 187,
 			Acronym = L["BF"],
@@ -400,6 +413,7 @@ if WoWClassicTBC then
 		CL_HCHellfireRamparts = {
 			ZoneName = { BZ["Hellfire Citadel"]..ALC["Colon"]..BZ["Hellfire Ramparts"] },
 			Location = { BZ["Hellfire Peninsula"] },
+			LevelRange = "59-67",
 			DungeonID = 136,
 			DungeonHeroicID = 188,
 			Acronym = L["Ramp"],
@@ -418,6 +432,7 @@ if WoWClassicTBC then
 		CL_HCMagtheridonsLair = {
 			ZoneName = { BZ["Hellfire Citadel"]..ALC["Colon"]..BZ["Magtheridon's Lair"] },
 			Location = { BZ["Hellfire Peninsula"] },
+			LevelRange = "70+",
 			DungeonID = 176,
 			Acronym = L["Mag"],
 			PlayerLimit = { 25 },
@@ -430,6 +445,7 @@ if WoWClassicTBC then
 		CL_HCTheShatteredHalls = {
 			ZoneName = { BZ["Hellfire Citadel"]..ALC["Colon"]..BZ["The Shattered Halls"] },
 			Location = { BZ["Hellfire Peninsula"] },
+			LevelRange = "69-70",
 			DungeonID = 138,
 			DungeonHeroicID = 189,
 			Acronym = L["SH"],
@@ -460,6 +476,7 @@ if WoWClassicTBC then
 		CL_KarazhanEnt = {
 			ZoneName = { BZ["Karazhan"]..ALC["L-Parenthesis"]..ALC["Entrance"]..ALC["R-Parenthesis"] },
 			Location = { BZ["Deadwind Pass"] },
+			LevelRange = "70+",
 			DungeonID = 175,
 			PlayerLimit = { 10 },
 			Acronym = L["Kara"],
@@ -482,6 +499,7 @@ if WoWClassicTBC then
 		CL_KarazhanStart = {
 			ZoneName = { BZ["Karazhan"]..ALC["MapA"]..ALC["L-Parenthesis"]..ALC["Start"]..ALC["R-Parenthesis"] },
 			Location = { BZ["Deadwind Pass"] },
+			LevelRange = "70+",
 			DungeonID = 175,
 			Acronym = L["Kara"],
 			PlayerLimit = { 10 },
@@ -542,6 +560,7 @@ if WoWClassicTBC then
 		CL_KarazhanEnd = {
 			ZoneName = { BZ["Karazhan"]..ALC["MapB"]..ALC["L-Parenthesis"]..ALC["End"]..ALC["R-Parenthesis"] },
 			Location = { BZ["Deadwind Pass"] },
+			LevelRange = "70+",
 			DungeonID = 175,
 			Acronym = L["Kara"],
 			PlayerLimit = { 10 },
@@ -575,6 +594,7 @@ if WoWClassicTBC then
 		CL_MagistersTerrace = {
 			ZoneName = { BZ["Magisters' Terrace"] },
 			Location = { BZ["Isle of Quel'Danas"] },
+			LevelRange = "70+",
 			DungeonID = 198,
 			DungeonHeroicID = 201,
 			Acronym = L["MaT"],
@@ -604,6 +624,7 @@ if WoWClassicTBC then
 		CL_SunwellPlateau = {
 			ZoneName = { BZ["Sunwell Plateau"] },
 			Location = { BZ["Isle of Quel'Danas"] },
+			LevelRange = "70+",
 			DungeonID = 199,
 			Acronym = L["SuP"],
 			PlayerLimit = { 25 },
@@ -626,7 +647,7 @@ if WoWClassicTBC then
 		TempestKeepEnt = {
 			ZoneName = { BZ["Tempest Keep"]..ALC["L-Parenthesis"]..ALC["Entrance"]..ALC["R-Parenthesis"] },
 			Location = { BZ["Netherstorm"] },
-			LevelRange = "70-73",
+			LevelRange = "68-70",
 			MinLevel= "67",
 			PlayerLimit = { 5, 25},
 			Acronym = L["TK"],
@@ -639,6 +660,7 @@ if WoWClassicTBC then
 		CL_TempestKeepArcatraz = {
 			ZoneName = { BZ["Tempest Keep"]..ALC["Colon"]..BZ["The Arcatraz"] },
 			Location = { BZ["Netherstorm"] },
+			LevelRange = "69-70",
 			DungeonID = 174,
 			DungeonHeroicID = 190,
 			Acronym = L["Arca"],
@@ -660,6 +682,7 @@ if WoWClassicTBC then
 		CL_TempestKeepBotanica = {
 			ZoneName = { BZ["Tempest Keep"]..ALC["Colon"]..BZ["The Botanica"] },
 			Location = { BZ["Netherstorm"] },
+			LevelRange = "69-70",
 			DungeonID = 173,
 			DungeonHeroicID = 191,
 			Acronym = L["Bota"],
@@ -677,6 +700,7 @@ if WoWClassicTBC then
 		CL_TempestKeepMechanar = {
 			ZoneName = { BZ["Tempest Keep"]..ALC["Colon"]..BZ["The Mechanar"] },
 			Location = { BZ["Netherstorm"] },
+			LevelRange = "68-70",
 			DungeonID = 172,
 			DungeonHeroicID = 192,
 			Acronym = L["Mech"],
@@ -696,6 +720,7 @@ if WoWClassicTBC then
 		CL_TempestKeepTheEye = {
 			ZoneName = { BZ["Tempest Keep"]..ALC["Colon"]..BZ["Tempest Keep"] },
 			Location = { BZ["Netherstorm"] },
+			LevelRange = "70+",
 			DungeonID = "193",
 			Acronym = L["TK"],
 			PlayerLimit = "25",
@@ -713,6 +738,202 @@ if WoWClassicTBC then
 			{ WHIT..INDENT..Atlas_GetBossName("Grand Astromancer Capernian", 1576, 4)..ALC["L-Parenthesis"]..Atlas_GetClassName("MAGE")..ALC["R-Parenthesis"] },
 			{ WHIT..INDENT..Atlas_GetBossName("Lord Sanguinar", 1576, 3)..ALC["L-Parenthesis"]..Atlas_GetClassName("PALADIN")..ALC["R-Parenthesis"] },
 		},
+		CL_CoTEnt = {
+			ZoneName = { BZ["Caverns of Time"]..ALC["L-Parenthesis"]..ALC["Entrance"]..ALC["R-Parenthesis"] },
+			Acronym = L["CoT"],
+			Location = { BZ["Tanaris"] },
+			Module = "Atlas_BurningCrusade",
+			LevelRange = "66-70",
+			{ BLUE.." A) "..ALC["Entrance"], 10001 },
+			{ BLUE.." B) "..BZ["Hyjal Summit"], 10002 },
+			{ BLUE.." C) "..BZ["Old Hillsbrad Foothills"], 10003 },
+			{ BLUE.." D) "..BZ["The Black Morass"], 10004 },
+			{ WHIT.." 1') "..ALC["Steward of Time <Keepers of Time>"], 10010 },
+			{ WHIT.." 2') "..ALC["Alexston Chrome <Tavern of Time>"], 10011 },
+			{ WHIT.." 3') "..ALC["Graveyard"], 10012 },
+			{ WHIT.." 4') "..ALC["Yarley <Armorer>"], 10013 },
+			{ WHIT.." 5') "..ALC["Bortega <Reagents & Poison Supplies>"], 10014 },
+			{ WHIT..INDENT..ALC["Alurmi <Keepers of Time Quartermaster>"] },
+			{ WHIT..INDENT..ALC["Galgrom <Provisioner>"] },
+			{ WHIT.." 6') "..ALC["Zaladormu"], 10015 },
+			{ WHIT..INDENT..ALC["Soridormi <The Scale of Sands>"]..ALC["L-Parenthesis"]..ALC["Wanders"]..ALC["R-Parenthesis"] },
+			{ WHIT..INDENT..ALC["Arazmodu <The Scale of Sands>"]..ALC["L-Parenthesis"]..ALC["Wanders"]..ALC["R-Parenthesis"] },
+			{ WHIT.." 7') "..ALC["Moonwell"], 10016 },
+			{ WHIT.." 8') "..ALC["Andormu <Keepers of Time>"]..ALC["L-Parenthesis"]..ALC["Child"]..ALC["R-Parenthesis"], 10017 },
+			{ WHIT..INDENT..ALC["Nozari <Keepers of Time>"]..ALC["L-Parenthesis"]..ALC["Child"]..ALC["R-Parenthesis"] },
+			{ WHIT.." 9') "..ALC["Anachronos <Keepers of Time>"], 10018 },
+		},
+		CoTBlackMorass = {
+			ZoneName = { BZ["Caverns of Time"]..ALC["Colon"]..BZ["The Black Morass"] },
+			Location = { BZ["Tanaris"] },
+			LevelRange = "68-70",
+			MinLevel = "68",
+			PlayerLimit = { 5 },
+			Acronym = L["CoT2"],
+			WorldMapID = 273,
+			JournalInstanceID = 255,
+			Module = "Atlas_BurningCrusade",
+			{ PURP..ALC["Event"]..ALC["Colon"]..BZ["Opening of the Dark Portal"] },
+			{ ORNG..ALC["Attunement Required"] },
+			{ ORNG..REPUTATION..ALC["Colon"]..BF["Keepers of Time"] },
+			{ BLUE.." A) "..ALC["Entrance"], 10001 },
+			{ GREN..INDENT..L["Sa'at <Keepers of Time>"] },
+			{ ORNG.." X) "..ALC["Portal"]..ALC["L-Parenthesis"]..ALC["Spawn Point"]..ALC["R-Parenthesis"], 10002 },
+			{ WHIT..INDENT..ALC["Wave 6"]..ALC["Colon"]..Atlas_GetBossName("Chrono Lord Deja", 552), 552 },
+			{ WHIT..INDENT..ALC["Wave 12"]..ALC["Colon"]..Atlas_GetBossName("Temporus", 553), 553 },
+			{ WHIT..INDENT..ALC["Wave 18"]..ALC["Colon"]..Atlas_GetBossName("Aeonus", 554), 554 },
+			{ GREN.." 1') "..BZ["The Dark Portal"], 10003 },
+			{ GREN..INDENT..Atlas_GetBossName("Medivh") },
+		},
+		CoTHyjal = {
+			ZoneName = { BZ["Caverns of Time"]..ALC["Colon"]..BZ["Hyjal Summit"] },
+			Location = { BZ["Tanaris"] },
+			LevelRange = "70+",
+			MinLevel = "70",
+			PlayerLimit = { 25 },
+			Acronym = L["CoT3"],
+			WorldMapID = 329,
+			JournalInstanceID = 750,
+			Module = "Atlas_BurningCrusade",
+			{ PURP..ALC["Event"]..ALC["Colon"]..BZ["The Battle for Mount Hyjal"] },
+			{ ORNG..REPUTATION..ALC["Colon"]..BF["The Scale of the Sands"] },
+			{ BLUE.." A) "..BZ["Alliance Base"], 10001 },
+			{ GREN..INDENT..L["Lady Jaina Proudmoore"] },
+			{ BLUE.." B) "..BZ["Horde Encampment"], 10002 },
+			{ GREN..INDENT..L["Thrall <Warchief>"] },
+			{ BLUE.." C) "..BZ["Night Elf Village"], 10003 },
+			{ GREN..INDENT..L["Tyrande Whisperwind <High Priestess of Elune>"] },
+			{ WHIT.." 1) "..Atlas_GetBossName("Rage Winterchill", 1577), 1577 },
+			{ WHIT.." 2) "..Atlas_GetBossName("Anetheron", 1578), 1578 },
+			{ WHIT.." 3) "..Atlas_GetBossName("Kaz'rogal", 1579), 1579 },
+			{ WHIT.." 4) "..Atlas_GetBossName("Azgalor", 1580), 1580 },
+			{ WHIT.." 5) "..Atlas_GetBossName("Archimonde", 1581), 1581 },
+		},
+		CoTOldHillsbrad = {
+			ZoneName = { BZ["Caverns of Time"]..ALC["Colon"]..BZ["Old Hillsbrad Foothills"] },
+			Location = { BZ["Tanaris"] },
+			LevelRange = "66-70",
+			MinLevel = "66",
+			PlayerLimit = { 5 },
+			Acronym = L["CoT1"],
+			WorldMapID = 274,
+			JournalInstanceID = 251,
+			Module = "Atlas_BurningCrusade",
+			{ PURP..ALC["Event"]..ALC["Colon"]..BZ["The Escape From Durnholde"] },
+			{ ORNG..ALC["Attunement Required"] },
+			{ ORNG..REPUTATION..ALC["Colon"]..BF["Keepers of Time"] },
+			{ BLUE.." A) "..ALC["Entrance"], 10001 },
+			{ GREN..INDENT..L["Erozion"] },
+			{ GREN..INDENT..L["Brazen"] },
+			{ BLUE.." B) "..L["Landing Spot"], 10002 },
+			{ BLUE.." C) "..BZ["Southshore"], 10003 },
+			{ BLUE.." D) "..BZ["Tarren Mill"], 10004 },
+			{ WHIT.." 1) "..Atlas_GetBossName("Lieutenant Drake", 538), 538 },
+			{ GREN.." 1') "..L["Thrall"]..ALC["L-Parenthesis"]..ALC["Lower"]..ALC["R-Parenthesis"], 10005 },
+			{ WHIT.." 2) "..Atlas_GetBossName("Captain Skarloc", 539), 539 },
+			{ GREN..INDENT..L["Thrall"]..ALC["L-Parenthesis"]..ALC["Second Stop"]..ALC["R-Parenthesis"] },
+			{ GREN.." 2') "..L["Thrall"]..ALC["L-Parenthesis"]..ALC["Third Stop"]..ALC["R-Parenthesis"], 10006 },
+			{ WHIT.." 3) "..Atlas_GetBossName("Epoch Hunter", 540), 540 },
+			{ GREN..INDENT..L["Thrall"]..ALC["L-Parenthesis"]..ALC["Fourth Stop"]..ALC["Comma"]..ALC["Upper"]..ALC["R-Parenthesis"] },
+			{ GREN..INDENT..L["Taretha"]..ALC["L-Parenthesis"]..ALC["Upper"]..ALC["R-Parenthesis"] },
+			{ WHIT.." 4) "..L["Don Carlos"]..ALC["L-Parenthesis"]..ALC["Wanders"]..ALC["R-Parenthesis"], 10007 },
+			{ WHIT..INDENT..INDENT..L["Guerrero"]..ALC["L-Parenthesis"]..ALC["Wanders"]..ALC["R-Parenthesis"] },
+			{ GREN..INDENT..L["Thomas Yance <Travelling Salesman>"]..ALC["L-Parenthesis"]..ALC["Wanders"]..ALC["R-Parenthesis"] },
+			{ GREN..INDENT..L["Aged Dalaran Wizard"]..ALC["L-Parenthesis"]..ALC["Wanders"]..ALC["R-Parenthesis"] },
+			{ GREN.." 3') "..L["Jonathan Revah"], 10008 },
+			{ GREN..INDENT..L["Jerry Carter"] },
+			{ "" },
+			{ "" },
+			{ "" },
+			{ ORNG..BZ["Southshore"] },
+			{ GREN..INDENT..Atlas_GetBossName("Kel'Thuzad") },
+			{ GREN..INDENT..L["Helcular"] },
+			{ GREN..INDENT..L["Farmer Kent"] },
+			{ GREN..INDENT..L["Sally Whitemane"] },
+			{ GREN..INDENT..L["Renault Mograine"] },
+			{ GREN..INDENT..L["Little Jimmy Vishas"] },
+			{ GREN..INDENT..L["Herod the Bully"] },
+			{ GREN..INDENT..L["Nat Pagle"] },
+			{ GREN..INDENT..L["Hal McAllister"] },
+			{ GREN..INDENT..L["Zixil <Aspiring Merchant>"] },
+			{ GREN..INDENT..L["Overwatch Mark 0 <Protector>"] },
+			{ "" },
+			{ ORNG..L["Southshore Inn"] },
+			{ GREN..INDENT..L["Captain Edward Hanes"] },
+			{ GREN..INDENT..L["Captain Sanders"] },
+			{ GREN..INDENT..L["Commander Mograine"] },
+			{ GREN..INDENT..L["Isillien"] },
+			{ GREN..INDENT..L["Abbendis"] },
+			{ GREN..INDENT..L["Fairbanks"] },
+			{ GREN..INDENT..Atlas_GetBossName("Tirion Fordring") },
+			{ GREN..INDENT..Atlas_GetBossName("Arcanist Doan") },
+			{ GREN..INDENT..L["Taelan"]..ALC["L-Parenthesis"]..ALC["Upper"]..ALC["R-Parenthesis"] },
+			{ GREN..INDENT..L["Barkeep Kelly <Bartender>"] },
+			{ GREN..INDENT..L["Frances Lin <Barmaid>"] },
+			{ GREN..INDENT..L["Chef Jessen <Speciality Meat & Slop>"] },
+			{ GREN..INDENT..L["Stalvan Mistmantle"]..ALC["L-Parenthesis"]..ALC["Upper"]..ALC["R-Parenthesis"] },
+			{ GREN..INDENT..L["Phin Odelic <The Kirin Tor>"]..ALC["L-Parenthesis"]..ALC["Upper"]..ALC["R-Parenthesis"] },
+			{ "" },
+			{ ORNG..BZ["Southshore Town Hall"] },
+			{ GREN..INDENT..L["Magistrate Henry Maleb"] },
+			{ GREN..INDENT..L["Raleigh the True"] },
+			{ GREN..INDENT..L["Nathanos Marris"] },
+			{ GREN..INDENT..L["Bilger the Straight-laced"] },
+			{ "" },
+			{ ORNG..BZ["Tarren Mill"] },
+			{ GREN..INDENT..L["Innkeeper Monica"] },
+			{ GREN..INDENT..L["Julie Honeywell"] },
+			{ GREN..INDENT..L["Jay Lemieux"] },
+			{ GREN..INDENT..L["Young Blanchy"] },
+		},
+		ZulAman = {
+			ZoneName = { BZ["Zul'Aman"] },
+			Location = { BZ["Ghostlands"] },
+			LevelRange = "70+",
+			DungeonID = 340,
+			Acronym = L["ZA"],
+			WorldMapID = 333,
+			JournalInstanceID = 77,
+			Module = "Atlas_BurningCrusade",
+			{ BLUE.." A) "..ALC["Entrance"], 10001 },
+			{ GREN..INDENT..L["Vol'jin"] },
+			{ GREN..INDENT..L["Witch Doctor T'wansi"] },
+			{ GREN..INDENT..L["Blood Guard Hakkuz <Darkspear Elite>"] },
+			{ GREN..INDENT..L["Voodoo Pile"] },
+			{ WHIT.." 1) "..Atlas_GetBossName("Akil'zon", 186), 186 },
+			{ GREN..INDENT..L["Bakkalzu"] },
+			{ WHIT.." 2) "..Atlas_GetBossName("Nalorakk", 187), 187 },
+			{ GREN..INDENT..L["Hazlek"] },
+			{ GREN..INDENT..L["The Map of Zul'Aman"] },
+			{ WHIT.." 3) "..Atlas_GetBossName("Jan'alai", 188), 188 },
+			{ GREN..INDENT..L["Norkani"] },
+			{ WHIT.." 4) "..Atlas_GetBossName("Halazzi", 189), 189 },
+			{ GREN..INDENT..L["Kasha"] },
+			{ WHIT.." 5) "..Atlas_GetBossName("Hex Lord Malacrass", 190), 190 },
+			{ WHIT..INDENT..L["Thurg"]..ALC["L-Parenthesis"]..ALC["Random"]..ALC["R-Parenthesis"] },
+			{ WHIT..INDENT..L["Gazakroth"]..ALC["L-Parenthesis"]..ALC["Random"]..ALC["R-Parenthesis"] },
+			{ WHIT..INDENT..L["Lord Raadan"]..ALC["L-Parenthesis"]..ALC["Random"]..ALC["R-Parenthesis"] },
+			{ WHIT..INDENT..L["Darkheart"]..ALC["L-Parenthesis"]..ALC["Random"]..ALC["R-Parenthesis"] },
+			{ WHIT..INDENT..L["Alyson Antille"]..ALC["L-Parenthesis"]..ALC["Random"]..ALC["R-Parenthesis"] },
+			{ WHIT..INDENT..L["Slither"]..ALC["L-Parenthesis"]..ALC["Random"]..ALC["R-Parenthesis"] },
+			{ WHIT..INDENT..L["Fenstalker"]..ALC["L-Parenthesis"]..ALC["Random"]..ALC["R-Parenthesis"] },
+			{ WHIT..INDENT..L["Koragg"]..ALC["L-Parenthesis"]..ALC["Random"]..ALC["R-Parenthesis"] },
+			{ WHIT.." 6) "..Atlas_GetBossName("Daakara", 191), 191 },
+			{ GREN.." 1') "..L["Zungam"], 10002 },
+			{ GREN.." 2') "..L["Forest Frogs"], 10003 },
+			{ GREN..INDENT..L["Eulinda <Reagents>"] },
+			{ GREN..INDENT..L["Harald <Food Vendor>"] },
+			{ GREN..INDENT..L["Arinoth"] },
+			{ GREN..INDENT..L["Kaldrick"] },
+			{ GREN..INDENT..L["Lenzo"] },
+			{ GREN..INDENT..L["Mawago"] },
+			{ GREN..INDENT..L["Melasong"] },
+			{ GREN..INDENT..L["Melissa"] },
+			{ GREN..INDENT..L["Micah"] },
+			{ GREN..INDENT..L["Relissa"] },
+			{ GREN..INDENT..L["Rosa"] },
+			{ GREN..INDENT..L["Tyllan"] },
+		},	
 	}
 
 	-- Atlas Map NPC Description Data
@@ -760,6 +981,8 @@ if WoWClassicTBC then
 		[BZ["Deadwind Pass"]] = 			"CL_KarazhanEnt",
 		[BZ["Isle of Quel'Danas"]] = 		"CL_SunwellPlateau",
 		[BZ["Netherstorm"]] = 				"TempestKeepEnt",
+		[BZ["Tanaris"]] = 					"CL_CoTEnt",
+		[BZ["Ghostlands"]] = 				"ZulAman",
 	}
 
 	-- Entrance maps to instance maps
@@ -769,6 +992,7 @@ if WoWClassicTBC then
 		["HellfireCitadelEnt"] = 	{"CL_HCBloodFurnace", "CL_HCHellfireRamparts", "CL_HCMagtheridonsLair", "CL_HCTheShatteredHalls"},
 		["CL_KarazhanEnt"] =			{"CL_KarazhanStart","CL_KarazhanEnd"},
 		["TempestKeepEnt"] = 		{"CL_TempestKeepArcatraz", "CL_TempestKeepBotanica", "CL_TempestKeepMechanar", "CL_TempestKeepTheEye"},
+		["CL_CoTEnt"] = 			{"CoTBlackMorass","CoTHyjal","CoTOldHillsbrad",},
 	}
 
 	-- Instance maps to entrance maps
@@ -792,6 +1016,9 @@ if WoWClassicTBC then
 		["CL_TempestKeepBotanica"] = 	{"TempestKeepEnt"}, 
 		["CL_TempestKeepMechanar"] = 	{"TempestKeepEnt"}, 
 		["CL_TempestKeepTheEye"] = 		{"TempestKeepEnt"},
+		["CoTBlackMorass"] =			{"CL_CoTEnt"},
+		["CoTHyjal"] =				{"CL_CoTEnt"},
+		["CoTOldHillsbrad"] =			{"CL_CoTEnt"},
 	}
 
 	-- Defines the instance which have multiple maps
@@ -818,7 +1045,7 @@ if WoWClassicTBC then
 			ATLAS_DDL_CONTINENT_OUTLAND,
 		},
 		[ATLAS_DDL_LEVEL] = {
-			ATLAS_DDL_LEVEL_10TO30,
+			ATLAS_DDL_LEVEL_60TO70,
 		},
 		[ATLAS_DDL_EXPANSION] = {
 			ATLAS_DDL_EXPANSION_BC,
@@ -828,13 +1055,18 @@ if WoWClassicTBC then
 	db.DropDownLayouts = {
 		[ATLAS_DDL_CONTINENT] = {
 			[ATLAS_DDL_CONTINENT_EASTERN] = {
-				"CL_KarazhanEnd",			-- Burning Crusade
-				"CL_KarazhanEnt",			-- Burning Crusade
-				"CL_KarazhanStart",		-- Burning Crusade
-				"CL_MagistersTerrace",		-- Burning Crusade
-				"CL_SunwellPlateau",		-- Burning Crusade
+				"CL_KarazhanEnd",	
+				"CL_KarazhanEnt",	
+				"CL_KarazhanStart",	
+				"CL_MagistersTerrace",
+				"CL_SunwellPlateau",
+				"ZulAman",
 			},
 			[ATLAS_DDL_CONTINENT_KALIMDOR] = {
+				"CL_CoTEnt",
+				"CoTBlackMorass",
+				"CoTHyjal",
+				"CoTOldHillsbrad",
 			},
 			[ATLAS_DDL_CONTINENT_OUTLAND] = {
 				"CL_AuchAuchenaiCrypts",
@@ -894,111 +1126,126 @@ if WoWClassicTBC then
 				"CL_TempestKeepBotanica",
 				"CL_TempestKeepMechanar",
 				"CL_TempestKeepTheEye",
+				"CL_CoTEnt",
+				"CoTBlackMorass",
+				"CoTHyjal",
+				"CoTOldHillsbrad",
+				"ZulAman",
 			},
 		},
 		[ATLAS_DDL_LEVEL] = {
-			[ATLAS_DDL_LEVEL_10TO30] = {
-				"CL_AuchAuchenaiCrypts",		-- Burning Crusade
-				"CL_AuchindounEnt",		-- Burning Crusade
-				"CL_AuchManaTombs",		-- Burning Crusade
-				"CL_AuchSethekkHalls",		-- Burning Crusade
-				"CL_AuchShadowLabyrinth",		-- Burning Crusade
-				"CL_CFRTheSlavePens",		-- Burning Crusade
-				"CL_CFRTheSteamvault",		-- Burning Crusade
-				"CL_CFRTheUnderbog",		-- Burning Crusade
-				"CL_CoilfangReservoirEnt",		-- Burning Crusade
-				"HellfireCitadelEnt",		-- Burning Crusade
-				"CL_HCBloodFurnace",		-- Burning Crusade
-				"CL_HCHellfireRamparts",		-- Burning Crusade
-				"CL_HCTheShatteredHalls",		-- Burning Crusade
-				"CL_MagistersTerrace",		-- Burning Crusade
-				"TempestKeepEnt",		-- Burning Crusade
-				"CL_TempestKeepArcatraz",		-- Burning Crusade
-				"CL_TempestKeepBotanica",		-- Burning Crusade
-				"CL_TempestKeepMechanar",		-- Burning Crusade
-				"CL_BlackTempleBasement",		-- Burning Crusade
-				"CL_BlackTempleStart",		-- Burning Crusade
-				"CL_BlackTempleTop",		-- Burning Crusade
-				"CL_CFRSerpentshrineCavern",	-- Burning Crusade
-				"CL_KarazhanEnt",			-- Burning Crusade
-				"CL_KarazhanStart",		-- Burning Crusade
-				"CL_KarazhanEnd",			-- Burning Crusade
+			[ATLAS_DDL_LEVEL_60TO70] = {
+				"CL_AuchAuchenaiCrypts",
+				"CL_AuchindounEnt",
+				"CL_AuchManaTombs",
+				"CL_AuchSethekkHalls",
+				"CL_AuchShadowLabyrinth",
+				"CL_CFRTheSlavePens",
+				"CL_CFRTheSteamvault",
+				"CL_CFRTheUnderbog",
+				"CL_CoilfangReservoirEnt",
+				"HellfireCitadelEnt",
+				"CL_HCBloodFurnace",
+				"CL_HCHellfireRamparts",
+				"CL_HCTheShatteredHalls",
+				"CL_MagistersTerrace",
+				"TempestKeepEnt",
+				"CL_TempestKeepArcatraz",
+				"CL_TempestKeepBotanica",
+				"CL_TempestKeepMechanar",
+				"CL_BlackTempleBasement",
+				"CL_BlackTempleStart",
+				"CL_BlackTempleTop",
+				"CL_CFRSerpentshrineCavern",
+				"CL_KarazhanEnt",	
+				"CL_KarazhanStart",
+				"CL_KarazhanEnd",	
+				"CL_CoTEnt",
+				"CoTBlackMorass",
+				"CoTHyjal",
+				"CoTOldHillsbrad",
+				"ZulAman",
 			},
 		},
 		[ATLAS_DDL_PARTYSIZE] = {
 			[ATLAS_DDL_PARTYSIZE_5] = {
-				"CL_AuchAuchenaiCrypts",		-- Burning Crusade
-				"CL_AuchindounEnt",		-- Burning Crusade
-				"CL_AuchManaTombs",		-- Burning Crusade
-				"CL_AuchSethekkHalls",		-- Burning Crusade
-				"CL_AuchShadowLabyrinth",		-- Burning Crusade
-				"CL_CFRTheSlavePens",		-- Burning Crusade
-				"CL_CFRTheSteamvault",		-- Burning Crusade
-				"CL_CFRTheUnderbog",		-- Burning Crusade
-				"CL_CoilfangReservoirEnt",		-- Burning Crusade
-				"CL_HCBloodFurnace",		-- Burning Crusade
-				"CL_HCHellfireRamparts",		-- Burning Crusade
-				"CL_HCTheShatteredHalls",		-- Burning Crusade
-				"HellfireCitadelEnt",		-- Burning Crusade
-				"CL_MagistersTerrace",		-- Burning Crusade
-				"CL_TempestKeepArcatraz",		-- Burning Crusade
-				"CL_TempestKeepBotanica",		-- Burning Crusade
-				"TempestKeepEnt",		-- Burning Crusade
-				"CL_TempestKeepMechanar",		-- Burning Crusade
+				"CL_AuchAuchenaiCrypts",
+				"CL_AuchindounEnt",
+				"CL_AuchManaTombs",
+				"CL_AuchSethekkHalls",
+				"CL_AuchShadowLabyrinth",
+				"CL_CFRTheSlavePens",
+				"CL_CFRTheSteamvault",
+				"CL_CFRTheUnderbog",
+				"CL_CoilfangReservoirEnt",
+				"CL_HCBloodFurnace",
+				"CL_HCHellfireRamparts",
+				"CL_HCTheShatteredHalls",
+				"HellfireCitadelEnt",
+				"CL_MagistersTerrace",
+				"CL_TempestKeepArcatraz",
+				"CL_TempestKeepBotanica",
+				"TempestKeepEnt",
+				"CL_TempestKeepMechanar",
+				"CL_CoTEnt",
+				"CoTBlackMorass",
+				"CoTHyjal",
+				"CoTOldHillsbrad",
 			},
 			[ATLAS_DDL_PARTYSIZE_10] = {
-				"CL_KarazhanEnd",			-- Burning Crusade
-				"CL_KarazhanEnt",			-- Burning Crusade
-				"CL_KarazhanStart",		-- Burning Crusade
+				"CL_KarazhanEnd",	
+				"CL_KarazhanEnt",	
+				"CL_KarazhanStart",
+				"ZulAman",
 			},
 			[ATLAS_DDL_PARTYSIZE_20TO40] = {
-				"CL_BlackTempleBasement",		-- Burning Crusade
-				"CL_BlackTempleStart",		-- Burning Crusade
-				"CL_BlackTempleTop",		-- Burning Crusade
-				"CL_CFRSerpentshrineCavern",	-- Burning Crusade
-				"CL_CoilfangReservoirEnt",		-- Burning Crusade
-				"CL_GruulsLair",			-- Burning Crusade
-				"CL_HCMagtheridonsLair",		-- Burning Crusade
-				"HellfireCitadelEnt",		-- Burning Crusade
-				"CL_SunwellPlateau",		-- Burning Crusade
-				"TempestKeepEnt",		-- Burning Crusade
-				"CL_TempestKeepTheEye",		-- Burning Crusade
+				"CL_BlackTempleBasement",
+				"CL_BlackTempleStart",
+				"CL_BlackTempleTop",
+				"CL_CFRSerpentshrineCavern",
+				"CL_CoilfangReservoirEnt",
+				"CL_GruulsLair",	
+				"CL_HCMagtheridonsLair",
+				"HellfireCitadelEnt",
+				"CL_SunwellPlateau",
+				"TempestKeepEnt",
+				"CL_TempestKeepTheEye",
 			},
 		},
 		[ATLAS_DDL_TYPE] = {
 			[ATLAS_DDL_TYPE_INSTANCE] = {
-				"CL_AuchAuchenaiCrypts",		-- Burning Crusade
-				"CL_AuchManaTombs",		-- Burning Crusade
-				"CL_AuchSethekkHalls",		-- Burning Crusade
-				"CL_AuchShadowLabyrinth",		-- Burning Crusade
-				"CL_BlackTempleBasement",		-- Burning Crusade
-				"CL_BlackTempleStart",		-- Burning Crusade
-				"CL_BlackTempleTop",		-- Burning Crusade
-				"CL_CFRSerpentshrineCavern",	-- Burning Crusade
-				"CL_CFRTheSlavePens",		-- Burning Crusade
-				"CL_CFRTheSteamvault",		-- Burning Crusade
-				"CL_CFRTheUnderbog",		-- Burning Crusade
-				"CL_GruulsLair",			-- Burning Crusade
-				"CL_HCBloodFurnace",		-- Burning Crusade
-				"CL_HCHellfireRamparts",		-- Burning Crusade
-				"CL_HCMagtheridonsLair",		-- Burning Crusade
-				"CL_HCTheShatteredHalls",		-- Burning Crusade
-				"CL_KarazhanEnd",			-- Burning Crusade
-				"CL_KarazhanStart",		-- Burning Crusade
-				"CL_MagistersTerrace",		-- Burning Crusade
-				"CL_SunwellPlateau",		-- Burning Crusade
-				"CL_TempestKeepArcatraz",		-- Burning Crusade
-				"CL_TempestKeepBotanica",		-- Burning Crusade
-				"CL_TempestKeepMechanar",		-- Burning Crusade
-				"CL_TempestKeepTheEye",		-- Burning Crusade
+				"CL_AuchAuchenaiCrypts",
+				"CL_AuchManaTombs",
+				"CL_AuchSethekkHalls",
+				"CL_AuchShadowLabyrinth",
+				"CL_BlackTempleBasement",
+				"CL_BlackTempleStart",
+				"CL_BlackTempleTop",
+				"CL_CFRSerpentshrineCavern",
+				"CL_CFRTheSlavePens",
+				"CL_CFRTheSteamvault",
+				"CL_CFRTheUnderbog",
+				"CL_GruulsLair",	
+				"CL_HCBloodFurnace",
+				"CL_HCHellfireRamparts",
+				"CL_HCMagtheridonsLair",
+				"CL_HCTheShatteredHalls",
+				"CL_KarazhanEnd",	
+				"CL_KarazhanStart",
+				"CL_MagistersTerrace",
+				"CL_SunwellPlateau",
+				"CL_TempestKeepArcatraz",
+				"CL_TempestKeepBotanica",
+				"CL_TempestKeepMechanar",
+				"CL_TempestKeepTheEye",
 			},
 			[ATLAS_DDL_TYPE_ENTRANCE] = {
-				"CL_AuchindounEnt",		-- Burning Crusade
-				"CL_CoilfangReservoirEnt",		-- Burning Crusade
-				"CL_CoTHyjalEnt",			-- Burning Crusade
-				"HellfireCitadelEnt",		-- Burning Crusade
-				"CL_KarazhanEnt",			-- Burning Crusade
-				"TempestKeepEnt",		-- Burning Crusade
+				"CL_AuchindounEnt",
+				"CL_CoilfangReservoirEnt",
+				"CL_CoTHyjalEnt",	
+				"HellfireCitadelEnt",
+				"CL_KarazhanEnt",	
+				"TempestKeepEnt",
 			},
 		},
 	}
