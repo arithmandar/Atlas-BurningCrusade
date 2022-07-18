@@ -8,6 +8,11 @@ Copyright 2011 ~ 2022 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.50.03 (Jul. 18, 2022)
+------------------------
+- Retail ToC update to support WoW 9.2.5
+- Localization anmespace updated for BCC to add names for Zul'Aman and Caverns of Time Entrance
+
 v1.50.02 (Mar. 23, 2022)
 ------------------------
 - Added maps: 
