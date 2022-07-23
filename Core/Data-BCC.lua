@@ -28,14 +28,21 @@
 local _G = getfenv(0)
 local pairs = _G.pairs
 -- Libraries
-local WoWClassicEra, WoWClassicTBC, WoWRetail
-local wowtocversion  = select(4, GetBuildInfo())
-if wowtocversion < 20000 then
+local GetBuildInfo = _G.GetBuildInfo
+
+-- Determine WoW TOC Version
+local WoWClassicEra, WoWClassicTBC, WoWWOTLKC, WoWRetail
+local wowversion  = select(4, GetBuildInfo())
+if wowversion < 20000 then
 	WoWClassicEra = true
-elseif wowtocversion > 19999 and wowtocversion < 90000 then 
+elseif wowversion < 30000 then 
 	WoWClassicTBC = true
-else
+elseif wowversion < 40000 then 
+	WoWWOTLKC = true
+elseif wowversion > 90000 then
 	WoWRetail = true
+else
+	-- n/a
 end
 
 -- ----------------------------------------------------------------------------
@@ -65,7 +72,7 @@ local function Atlas_GetBossName(bossname, encounterID, creatureIndex)
 	return bossname
 end
 
-if WoWClassicTBC then
+if (WoWClassicTBC or WoWWOTLKC) then
 	local db = {}
 	addon.db = db
 
