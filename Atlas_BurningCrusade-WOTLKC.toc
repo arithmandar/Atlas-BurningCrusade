@@ -40,4 +40,4 @@
 
 Locale\Locales.xml
 Core\Core.lua
-Core\Data-BCC.lua
+Core\Data-WOLTKC.lua
