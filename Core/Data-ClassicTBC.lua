@@ -34,6 +34,13 @@ local pairs = _G.pairs
 -- ----------------------------------------------------------------------------
 local FOLDER_NAME, private = ...
 local LibStub = _G.LibStub
+
+local wowversion = select(4, GetBuildInfo())
+local isAnniversaryTBC = (WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC or (WOW_PROJECT_ID == WOW_PROJECT_CLASSIC and wowversion >= 20000 and wowversion < 30000))
+if not isAnniversaryTBC then
+	return
+end
+
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0")
 local BF = Atlas_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local L = LibStub("AceLocale-3.0"):GetLocale(private.addon_name)
@@ -118,10 +125,6 @@ db.AtlasMaps = {
 		{ WHIT.." 2) "..Atlas_GetBossName("Exarch Maladaar", 524), 524 },
 		{ WHIT..INDENT..L["Avatar of the Martyred"] },
 		{ GREN..INDENT..L["D'ore"] },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "Auchenai Crypts", "ac=666" },
-		{ "Heroic: Auchenai Crypts", "ac=672" },
 	},
 	CL_AuchManaTombs = {
 		ZoneName = { BZ["Auchindoun"]..ALC["Colon"]..BZ["Mana-Tombs"] },
@@ -142,10 +145,6 @@ db.AtlasMaps = {
 		{ WHIT.." 3) "..L["Ethereal Transporter Control Panel"] },
 		{ WHIT.." 4) "..Atlas_GetBossName("Nexus-Prince Shaffar", 537), 537 },
 		{ ORNG..INDENT..Atlas_GetBossName("Yor", 536)..ALC["L-Parenthesis"]..ALC["Summon"]..ALC["Comma"]..ALC["Heroic"]..ALC["R-Parenthesis"], 536 },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "Mana-Tombs", "ac=651" },
-		{ "Heroic: Mana-Tombs", "ac=671" },
 	},
 	CL_AuchSethekkHalls = {
 		ZoneName = { BZ["Auchindoun"]..ALC["Colon"]..BZ["Sethekk Halls"] },
@@ -165,10 +164,6 @@ db.AtlasMaps = {
 		{ WHIT.." 2) "..Atlas_GetBossName("Anzu", 542)..ALC["L-Parenthesis"]..ALC["Heroic"]..ALC["R-Parenthesis"], 542 },
 		{ GREN..INDENT..L["The Saga of Terokk"] },
 		{ WHIT.." 3) "..Atlas_GetBossName("Talon King Ikiss", 543), 543 },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "Sethekk Halls", "ac=653" },
-		{ "Heroic: Sethekk Halls", "ac=674" },
 	},
 	CL_AuchShadowLabyrinth = {
 		ZoneName = { BZ["Auchindoun"]..ALC["Colon"]..BZ["Shadow Labyrinth"] },
@@ -189,10 +184,6 @@ db.AtlasMaps = {
 		{ WHIT.." 5) "..Atlas_GetBossName("Murmur", 547), 547 },
 		{ GREY.." 6) "..L["First Fragment Guardian"], 10002 },
 		{ GREN..INDENT..ALC["Arcane Container"] },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "Shadow Labyrinth", "ac=654" },
-		{ "Heroic: Shadow Labyrinth", "ac=675" },
 	},
 	CL_BlackTempleStart = {
 		ZoneName = { BZ["Black Temple"]..ALC["MapA"]..ALC["L-Parenthesis"]..ALC["Start"]..ALC["R-Parenthesis"] },
@@ -220,9 +211,6 @@ db.AtlasMaps = {
 		{ GREN..INDENT..L["Aluyen <Reagents>"] },
 		{ GREN..INDENT..L["Okuno <Ashtongue Deathsworn Quartermaster>"] },
 		{ GREN..INDENT..L["Seer Kanai"] },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "The Black Temple", "ac=697" },
 	},
 	CL_BlackTempleBasement = {
 		ZoneName = { BZ["Black Temple"]..ALC["MapB"]..ALC["L-Parenthesis"]..ALC["Basement"]..ALC["R-Parenthesis"] },
@@ -247,9 +235,6 @@ db.AtlasMaps = {
 		{ WHIT..INDENT..Atlas_GetBossName("Essence of Desire", 1587, 2) },
 		{ WHIT..INDENT..Atlas_GetBossName("Essence of Anger", 1587, 3) },
 		{ WHIT.." 8) "..Atlas_GetBossName("Teron Gorefiend", 1585), 1585 },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "The Black Temple", "ac=697" },
 	},
 	CL_BlackTempleTop = {
 		ZoneName = { BZ["Black Temple"]..ALC["MapC"]..ALC["L-Parenthesis"]..ALC["Top"]..ALC["R-Parenthesis"] },
@@ -273,9 +258,6 @@ db.AtlasMaps = {
 		{ WHIT..INDENT..Atlas_GetBossName("Lady Malande", 1589, 3)..ALC["L-Parenthesis"]..Atlas_GetClassName("PRIEST")..ALC["R-Parenthesis"] },
 		{ WHIT..INDENT..Atlas_GetBossName("Veras Darkshadow", 1589, 4)..ALC["L-Parenthesis"]..Atlas_GetClassName("ROGUE")..ALC["R-Parenthesis"] },
 		{ WHIT.."11) "..Atlas_GetBossName("Illidan Stormrage", 1590), 1590 },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "The Black Temple", "ac=697" },
 	},
 	CL_CoilfangReservoirEnt = {
 		ZoneName = { BZ["Coilfang Reservoir"]..ALC["L-Parenthesis"]..ALC["Entrance"]..ALC["R-Parenthesis"] },
@@ -313,9 +295,6 @@ db.AtlasMaps = {
 		{ GREN..INDENT..L["Seer Olum"] },
 		{ WHIT.." 5) "..Atlas_GetBossName("Morogrim Tidewalker", 1571), 1571 },
 		{ WHIT.." 6) "..Atlas_GetBossName("Lady Vashj", 1572), 1572 },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "Serpentshrine Cavern", "ac=694" },
 	},
 	CL_CFRTheSlavePens = {
 		ZoneName = { BZ["Coilfang Reservoir"]..ALC["Colon"]..BZ["The Slave Pens"] },
@@ -335,10 +314,6 @@ db.AtlasMaps = {
 		{ WHIT.." 4) "..Atlas_GetBossName("Rokmar the Crackler", 571), 571 },
 		{ GREY.." 5) "..L["Naturalist Bite"], 10005 },
 		{ WHIT.." 6) "..Atlas_GetBossName("Quagmirran", 572), 572 },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "The Slave Pens", "ac=649" },
-		{ "Heroic: The Slave Pens", "ac=669" },
 	},
 	CL_CFRTheSteamvault = {
 		ZoneName = { BZ["Coilfang Reservoir"]..ALC["Colon"]..BZ["The Steamvault"] },
@@ -359,10 +334,6 @@ db.AtlasMaps = {
 		{ WHIT.." 4) "..Atlas_GetBossName("Mekgineer Steamrigger", 574), 574 },
 		{ GREN..INDENT..L["Main Chambers Access Panel"] },
 		{ WHIT.." 5) "..Atlas_GetBossName("Warlord Kalithresh", 575), 575 },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "The Steamvault", "ac=656" },
-		{ "Heroic: The Steamvault", "ac=677" },
 	},
 	CL_CFRTheUnderbog = {
 		ZoneName = { BZ["Coilfang Reservoir"]..ALC["Colon"]..BZ["The Underbog"] },
@@ -383,10 +354,6 @@ db.AtlasMaps = {
 		{ WHIT.." 4) "..Atlas_GetBossName("Swamplord Musel'ek", 578), 578 },
 		{ WHIT..INDENT..Atlas_GetBossName("Claw") },
 		{ WHIT.." 5) "..Atlas_GetBossName("The Black Stalker", 579), 579 },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "Underbog", "ac=650" },
-		{ "Heroic: Underbog", "ac=670" },
 	},
 	CL_GruulsLair = {
 		ZoneName = { BZ["Gruul's Lair"] },
@@ -405,9 +372,6 @@ db.AtlasMaps = {
 		{ WHIT..INDENT..Atlas_GetBossName("Olm the Summoner", 1564, 4)..ALC["L-Parenthesis"]..Atlas_GetClassName("WARLOCK")..ALC["R-Parenthesis"] },
 		{ WHIT..INDENT..Atlas_GetBossName("Krosh Firehand", 1564, 5)..ALC["L-Parenthesis"]..Atlas_GetClassName("MAGE")..ALC["R-Parenthesis"] },
 		{ WHIT.." 2) "..Atlas_GetBossName("Gruul the Dragonkiller", 1565), 1565 },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "Gruul's Lair", "ac=692" },
 	},
 	HellfireCitadelEnt = {
 		ZoneName = { BZ["Hellfire Citadel"]..ALC["L-Parenthesis"]..ALC["Entrance"]..ALC["R-Parenthesis"] },
@@ -442,10 +406,6 @@ db.AtlasMaps = {
 		{ WHIT.." 1) "..Atlas_GetBossName("The Maker", 555), 555 },
 		{ WHIT.." 2) "..Atlas_GetBossName("Broggok", 556), 556 },
 		{ WHIT.." 3) "..Atlas_GetBossName("Keli'dan the Breaker", 557), 557 },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "The Blood Furnace", "ac=648" },
-		{ "Heroic: The Blood Furnace", "ac=668" },
 	},
 	CL_HCHellfireRamparts = {
 		ZoneName = { BZ["Hellfire Citadel"]..ALC["Colon"]..BZ["Hellfire Ramparts"] },
@@ -465,10 +425,6 @@ db.AtlasMaps = {
 		{ WHIT.." 3) "..Atlas_GetBossName("Vazruden the Herald", 529), 529 },
 		{ WHIT..INDENT..Atlas_GetBossName("Nazan") },
 		{ GREN..INDENT..L["Reinforced Fel Iron Chest"] },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "Hellfire Ramparts", "ac=647" },
-		{ "Heroic: Hellfire Ramparts", "ac=667" },
 	},
 	CL_HCMagtheridonsLair = {
 		ZoneName = { BZ["Hellfire Citadel"]..ALC["Colon"]..BZ["Magtheridon's Lair"] },
@@ -482,9 +438,6 @@ db.AtlasMaps = {
 		Module = "Atlas_BurningCrusade",
 		{ BLUE.." A) "..ALC["Entrance"], 10001 },
 		{ WHIT.." 1) "..Atlas_GetBossName("Magtheridon", 1566), 1566 },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "Magtheridon's Lair", "ac=693" },
 	},
 	CL_HCTheShatteredHalls = {
 		ZoneName = { BZ["Hellfire Citadel"]..ALC["Colon"]..BZ["The Shattered Halls"] },
@@ -516,10 +469,6 @@ db.AtlasMaps = {
 		{ GREN..INDENT..L["Scout Orgarr"]..ALC["L-Parenthesis"]..FACTION_HORDE..ALC["Comma"]..ALC["Heroic"]..ALC["R-Parenthesis"] },
 		{ GREN..INDENT..L["Korag Proudmane"]..ALC["L-Parenthesis"]..FACTION_HORDE..ALC["Comma"]..ALC["Heroic"]..ALC["R-Parenthesis"] },
 		{ GREN..INDENT..L["Captain Boneshatter"]..ALC["L-Parenthesis"]..FACTION_HORDE..ALC["Comma"]..ALC["Heroic"]..ALC["R-Parenthesis"] },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "The Shattered Halls", "ac=657" },
-		{ "Heroic: The Shattered Halls", "ac=678" },
 	},
 	CL_KarazhanEnt = {
 		ZoneName = { BZ["Karazhan"]..ALC["L-Parenthesis"]..ALC["Entrance"]..ALC["R-Parenthesis"] },
@@ -604,9 +553,6 @@ db.AtlasMaps = {
 		{ WHIT..INDENT..INDENT..Atlas_GetBossName("Julianne", 1556, 3) },
 		{ GREY.."15) "..Atlas_GetBossName("Nightbane")..ALC["L-Parenthesis"]..ALC["Summon"]..ALC["R-Parenthesis"], 10018 },
 		{ GREY..INDENT..L["The Master's Terrace"] },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "Karazhan", "ac=690" },
 	},
 	CL_KarazhanEnd = {
 		ZoneName = { BZ["Karazhan"]..ALC["MapB"]..ALC["L-Parenthesis"]..ALC["End"]..ALC["R-Parenthesis"] },
@@ -641,9 +587,6 @@ db.AtlasMaps = {
 		{ WHIT.."25) "..Atlas_GetBossName("Chess Event", 1562), 1562 },
 		{ GREN..INDENT..Atlas_GetBossName("Dust Covered Chest") },
 		{ WHIT.."26) "..Atlas_GetBossName("Prince Malchezaar", 1563), 1563 },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "Karazhan", "ac=690" },
 	},
 	CL_MagistersTerrace = {
 		ZoneName = { BZ["Magisters' Terrace"] },
@@ -674,10 +617,6 @@ db.AtlasMaps = {
 		{ WHIT..INDENT..L["Yazzai"]..ALC["L-Parenthesis"]..ALC["Lower"]..ALC["Comma"]..ALC["Random"]..ALC["Comma"]..Atlas_GetClassName("MAGE")..ALC["R-Parenthesis"] },
 		{ WHIT..INDENT..L["Zelfan"]..ALC["L-Parenthesis"]..ALC["Lower"]..ALC["Comma"]..ALC["Random"]..ALC["Comma"]..ALC["Engineer"]..ALC["R-Parenthesis"] },
 		{ WHIT.." 6) "..Atlas_GetBossName("Kael'thas Sunstrider", 533), 533 },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "Magister's Terrace", "ac=661" },
-		{ "Heroic: Magister's Terrace", "ac=682" },
 	},
 	CL_SunwellPlateau = {
 		ZoneName = { BZ["Sunwell Plateau"] },
@@ -701,9 +640,6 @@ db.AtlasMaps = {
 		{ WHIT..INDENT..Atlas_GetBossName("M'uru", 1595, 1)..ALC["L-Parenthesis"]..ALC["Upper"]..ALC["R-Parenthesis"], 1595 },
 		{ WHIT..INDENT..Atlas_GetBossName("Entropius", 1595, 2)..ALC["L-Parenthesis"]..ALC["Upper"]..ALC["R-Parenthesis"] },
 		{ WHIT.." 4) "..Atlas_GetBossName("Kil'jaeden", 1596), 1596 },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "Sunwell Plateau", "ac=698" },
 	},
 	TempestKeepEnt = {
 		ZoneName = { BZ["Tempest Keep"]..ALC["L-Parenthesis"]..ALC["Entrance"]..ALC["R-Parenthesis"] },
@@ -739,10 +675,6 @@ db.AtlasMaps = {
 		{ WHIT.." 6) "..Atlas_GetBossName("Harbinger Skyriss", 551), 551 },
 		{ WHIT..INDENT..Atlas_GetBossName("Warden Mellichar") },
 		{ GREN..INDENT..L["Millhouse Manastorm"] },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "The Arcatraz", "ac=660" },
-		{ "Heroic: The Arcatraz", "ac=681" },
 	},
 	CL_TempestKeepBotanica = {
 		ZoneName = { BZ["Tempest Keep"]..ALC["Colon"]..BZ["The Botanica"] },
@@ -761,10 +693,6 @@ db.AtlasMaps = {
 		{ WHIT.." 3) "..Atlas_GetBossName("Thorngrin the Tender", 560), 560 },
 		{ WHIT.." 4) "..Atlas_GetBossName("Laj", 561), 561 },
 		{ WHIT.." 5) "..Atlas_GetBossName("Warp Splinter", 562), 562 },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "The Botanica", "ac=659" },
-		{ "Heroic: The Botanica", "ac=680" },
 	},
 	CL_TempestKeepMechanar = {
 		ZoneName = { BZ["Tempest Keep"]..ALC["Colon"]..BZ["The Mechanar"] },
@@ -785,10 +713,6 @@ db.AtlasMaps = {
 		{ GREN..INDENT..L["Overcharged Manacell"] },
 		{ WHIT.." 4) "..Atlas_GetBossName("Nethermancer Sepethrea", 564), 564 },
 		{ WHIT.." 5) "..Atlas_GetBossName("Pathaleon the Calculator", 565), 565 },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "The Mechanar", "ac=658" },
-		{ "Heroic: The Mechanar", "ac=679" },
 	},
 	CL_TempestKeepTheEye = {
 		ZoneName = { BZ["Tempest Keep"]..ALC["Colon"]..BZ["Tempest Keep"] },
@@ -810,11 +734,8 @@ db.AtlasMaps = {
 		{ WHIT..INDENT..Atlas_GetBossName("Master Engineer Telonicus", 1576, 5)..ALC["L-Parenthesis"]..Atlas_GetClassName("HUNTER")..ALC["R-Parenthesis"] },
 		{ WHIT..INDENT..Atlas_GetBossName("Grand Astromancer Capernian", 1576, 4)..ALC["L-Parenthesis"]..Atlas_GetClassName("MAGE")..ALC["R-Parenthesis"] },
 		{ WHIT..INDENT..Atlas_GetBossName("Lord Sanguinar", 1576, 3)..ALC["L-Parenthesis"]..Atlas_GetClassName("PALADIN")..ALC["R-Parenthesis"] },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "Tempest Keep", "ac=696" },
 	},
-	WL_CoTEnt = {
+	CL_CoTEnt = {
 		ZoneName = { BZ["Caverns of Time"]..ALC["L-Parenthesis"]..ALC["Entrance"]..ALC["R-Parenthesis"] },
 		Acronym = L["CoT"],
 		Location = { BZ["Tanaris"] },
@@ -824,7 +745,6 @@ db.AtlasMaps = {
 		{ BLUE.." B) "..BZ["Hyjal Summit"], 10002 },
 		{ BLUE.." C) "..BZ["Old Hillsbrad Foothills"], 10003 },
 		{ BLUE.." D) "..BZ["The Black Morass"], 10004 },
-		{ BLUE.." E) "..BZ["The Culling of Stratholme"], 10005 },
 		{ WHIT.." 1') "..ALC["Steward of Time <Keepers of Time>"], 10010 },
 		{ WHIT.." 2') "..ALC["Alexston Chrome <Tavern of Time>"], 10011 },
 		{ WHIT.." 3') "..ALC["Graveyard"], 10012 },
@@ -962,39 +882,6 @@ db.AtlasMaps = {
 		{ GREN..INDENT..L["Julie Honeywell"] },
 		{ GREN..INDENT..L["Jay Lemieux"] },
 		{ GREN..INDENT..L["Young Blanchy"] },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{" The Escape From Durnholde", "ac=652" },
-		{ "Heroic: The Escape From Durnholde", "ac=673" },
-	},
-	CoTOldStratholme = {
-		ZoneName = { BZ["Caverns of Time"]..ALC["Colon"]..BZ["The Culling of Stratholme"] },
-		Location = { BZ["Tanaris"] },
-		DungeonID = 209,
-		DungeonHeroicID = 210,
-		Acronym = L["CoT-Strat"],
-		WorldMapID = 130,
-		JournalInstanceID = 279,
-		Module = "Atlas_BurningCrusade",
-		{ PURP..ALC["Event"]..ALC["Colon"]..L["The Culling of Stratholme"] },
-		{ BLUE.." A) "..ALC["Entrance"], 10001 },
-		{ BLUE.." B) "..ALC["Exit"]..ALC["L-Parenthesis"]..ALC["Portal"]..ALC["R-Parenthesis"], 10002 },
-		{ ORNG.." X) "..L["Scourge Invasion Points"], 10003 },
-		{ WHIT..INDENT..ALC["Wave 5"]..ALC["Colon"]..Atlas_GetBossName("Meathook", 611), 611 },
-		{ WHIT..INDENT..ALC["Wave 10"]..ALC["Colon"]..Atlas_GetBossName("Salramm the Fleshcrafter", 612), 612 },
-		{ WHIT.." 3) "..Atlas_GetBossName("Chrono-Lord Epoch", 613), 613 },
-		{ WHIT.." 4) "..Atlas_GetBossName("Infinite Corruptor")..ALC["L-Parenthesis"]..ALC["Heroic"]..ALC["R-Parenthesis"], 10004 },
-		{ GREN..INDENT..L["Guardian of Time"] },
-		{ WHIT.." 5) "..Atlas_GetBossName("Mal'Ganis", 614), 614 },
-		{ GREN..INDENT..L["Chromie"] },
-		{ GREN.." 1') "..L["Chromie"], 10005 },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "The Culling of Stratholme", "ac=479" },
-		{ "The Culling of Time", "ac=1817" },
-		{ "Zombiefest!", "ac=1872" },
-		{ "Heroic: The Culling of Stratholme", "ac=500" },
-		--{ "Heroic: The Culling of Stratholme Guild Run", "ac=5106" },
 	},
 	ZulAman = {
 		ZoneName = { BZ["Zul'Aman"] },
@@ -1043,9 +930,6 @@ db.AtlasMaps = {
 		{ GREN..INDENT..L["Relissa"] },
 		{ GREN..INDENT..L["Rosa"] },
 		{ GREN..INDENT..L["Tyllan"] },
-		{ "" },
-		{ LBLU..ACHIEVEMENTS..ALC["Colon"] },
-		{ "Zul'Aman", "ac=691" },
 	},	
 }
 
@@ -1094,7 +978,7 @@ db.OutdoorZoneToAtlas = {
 	[BZ["Deadwind Pass"]] = 			"CL_KarazhanEnt",
 	[BZ["Isle of Quel'Danas"]] = 		"CL_SunwellPlateau",
 	[BZ["Netherstorm"]] = 				"TempestKeepEnt",
-	[BZ["Tanaris"]] = 					"WL_CoTEnt",
+	[BZ["Tanaris"]] = 					"CL_CoTEnt",
 	[BZ["Ghostlands"]] = 				"ZulAman",
 }
 
@@ -1102,10 +986,10 @@ db.OutdoorZoneToAtlas = {
 db.EntToInstMatches = {
 	["CL_AuchindounEnt"] =			{"CL_AuchManaTombs","CL_AuchAuchenaiCrypts","CL_AuchSethekkHalls","CL_AuchShadowLabyrinth"},
 	["CL_CoilfangReservoirEnt"] =	{"CL_CFRTheSlavePens","CL_CFRTheUnderbog","CL_CFRTheSteamvault","CL_CFRSerpentshrineCavern"},
-	["HellfireCitadelEnt"] = 	{"CL_HCBloodFurnace", "CL_HCHellfireRamparts", "CL_HCMagtheridonsLair", "CL_HCTheShatteredHalls"},
+	["HellfireCitadelEnt"] = 		{"CL_HCBloodFurnace", "CL_HCHellfireRamparts", "CL_HCMagtheridonsLair", "CL_HCTheShatteredHalls"},
 	["CL_KarazhanEnt"] =			{"CL_KarazhanStart","CL_KarazhanEnd"},
-	["TempestKeepEnt"] = 		{"CL_TempestKeepArcatraz", "CL_TempestKeepBotanica", "CL_TempestKeepMechanar", "CL_TempestKeepTheEye"},
-	["WL_CoTEnt"] = 			{"CoTBlackMorass","CoTHyjal","CoTOldHillsbrad","CoTOldStratholme"},
+	["TempestKeepEnt"] = 			{"CL_TempestKeepArcatraz", "CL_TempestKeepBotanica", "CL_TempestKeepMechanar", "CL_TempestKeepTheEye"},
+	["CL_CoTEnt"] = 				{"CoTBlackMorass","CoTHyjal","CoTOldHillsbrad",},
 }
 
 -- Instance maps to entrance maps
@@ -1129,10 +1013,9 @@ db.InstToEntMatches = {
 	["CL_TempestKeepBotanica"] = 	{"TempestKeepEnt"}, 
 	["CL_TempestKeepMechanar"] = 	{"TempestKeepEnt"}, 
 	["CL_TempestKeepTheEye"] = 		{"TempestKeepEnt"},
-	["CoTBlackMorass"] =			{"WL_CoTEnt"},
-	["CoTHyjal"] =					{"WL_CoTEnt"},
-	["CoTOldHillsbrad"] =			{"WL_CoTEnt"},
-	["CoTOldStratholme"] =			{"WL_CoTEnt"},
+	["CoTBlackMorass"] =			{"CL_CoTEnt"},
+	["CoTHyjal"] =					{"CL_CoTEnt"},
+	["CoTOldHillsbrad"] =			{"CL_CoTEnt"},
 }
 
 -- Defines the instance which have multiple maps
@@ -1177,11 +1060,10 @@ db.DropDownLayouts = {
 			"ZulAman",
 		},
 		[ATLAS_DDL_CONTINENT_KALIMDOR] = {
-			"WL_CoTEnt",
+			"CL_CoTEnt",
 			"CoTBlackMorass",
 			"CoTHyjal",
 			"CoTOldHillsbrad",
-			"CoTOldStratholme",
 		},
 		[ATLAS_DDL_CONTINENT_OUTLAND] = {
 			"CL_AuchAuchenaiCrypts",
@@ -1241,7 +1123,7 @@ db.DropDownLayouts = {
 			"CL_TempestKeepBotanica",
 			"CL_TempestKeepMechanar",
 			"CL_TempestKeepTheEye",
-			"WL_CoTEnt",
+			"CL_CoTEnt",
 			"CoTBlackMorass",
 			"CoTHyjal",
 			"CoTOldHillsbrad",
@@ -1275,7 +1157,7 @@ db.DropDownLayouts = {
 			"CL_KarazhanEnt",	
 			"CL_KarazhanStart",
 			"CL_KarazhanEnd",	
-			"WL_CoTEnt",
+			"CL_CoTEnt",
 			"CoTBlackMorass",
 			"CoTHyjal",
 			"CoTOldHillsbrad",
@@ -1302,11 +1184,10 @@ db.DropDownLayouts = {
 			"CL_TempestKeepBotanica",
 			"TempestKeepEnt",
 			"CL_TempestKeepMechanar",
-			"WL_CoTEnt",
+			"CL_CoTEnt",
 			"CoTBlackMorass",
 			"CoTHyjal",
 			"CoTOldHillsbrad",
-			"CoTOldStratholme",
 		},
 		[ATLAS_DDL_PARTYSIZE_10] = {
 			"CL_KarazhanEnd",	
@@ -1354,10 +1235,6 @@ db.DropDownLayouts = {
 			"CL_TempestKeepBotanica",
 			"CL_TempestKeepMechanar",
 			"CL_TempestKeepTheEye",
-			"CoTBlackMorass",
-			"CoTHyjal",
-			"CoTOldHillsbrad",
-			"CoTOldStratholme",
 		},
 		[ATLAS_DDL_TYPE_ENTRANCE] = {
 			"CL_AuchindounEnt",
@@ -1366,8 +1243,6 @@ db.DropDownLayouts = {
 			"HellfireCitadelEnt",
 			"CL_KarazhanEnt",	
 			"TempestKeepEnt",
-			"WL_CoTEnt",
 		},
 	},
 }
-

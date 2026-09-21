@@ -27,23 +27,9 @@
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("Atlas_BurningCrusade", "itIT", false);
 
--- Atlas Spanish Localization
-if ( GetLocale() == "itIT" ) then
--- Define the leading strings to be ignored while sorting
--- Ex: The Stockade
-AtlasSortIgnore = {
-	--"the (.+)",
-};
 
--- Syntax: ["real_zone_name"] = "localized map zone name"
-AtlasZoneSubstitutions = {
---	["Ahn'Qiraj"] = "Templo de Ahn'Qiraj";
---	["The Temple of Atal'Hakkar"] = "El Templo de Atal'Hakkar";
---	["Throne of Tides"] = "Fauce Abisal: Trono de las Mareas";
-};
-end
 
 
 if L then
---@localization(locale="itIT", format="lua_additive_table")@
+
 end

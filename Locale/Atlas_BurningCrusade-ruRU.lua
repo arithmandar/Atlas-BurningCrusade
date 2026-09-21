@@ -28,8 +28,6 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("Atlas_BurningCrusade", "ruRU", false);
 
 if L then
---@localization(locale="ruRU", format="lua_additive_table")@
---@do-not-package@
 --************************************************
 -- Zone Names, Acronyms, and Common Strings
 --************************************************
@@ -303,7 +301,5 @@ if L then
 	L["Overcharged Manacell"] = "Переполненный зарядом контейнер с маной";
 
 	--TK: The Eye
-
---@end-do-not-package@
 
 end

@@ -28,7 +28,6 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("Atlas_BurningCrusade", "enUS", true, true);
 
 if L then
---@localization(locale="enUS", format="lua_additive_table")@
 --************************************************
 -- Zone Names, Acronyms, and Common Strings
 --************************************************

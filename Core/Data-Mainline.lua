@@ -34,6 +34,11 @@ local pairs = _G.pairs
 -- ----------------------------------------------------------------------------
 local FOLDER_NAME, private = ...
 local LibStub = _G.LibStub
+
+local wowversion = select(4, GetBuildInfo())
+local isRetail = (WOW_PROJECT_ID == WOW_PROJECT_MAINLINE and wowversion >= 120000)
+if not isRetail then return end
+
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0")
 local BF = Atlas_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local L = LibStub("AceLocale-3.0"):GetLocale(private.addon_name)

@@ -26,24 +26,7 @@
 
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("Atlas_BurningCrusade", "ptBR", false);
--- Localize file must set above to false, for example:
---    local AL = AceLocale:NewLocale("Atlas_BurningCrusade", "deDE", false);
-
--- Atlas English Localization
-if ( GetLocale() == "ptBR" ) then
--- Define the leading strings to be ignored while sorting
--- Ex: The Stockade
---AtlasSortIgnore = {"the (.+)"};
-
--- Syntax: ["real_zone_name"] = "localized map zone name"
-AtlasZoneSubstitutions = {
---	["Ahn'Qiraj"] = "Temple of Ahn'Qiraj";
---	["The Temple of Atal'Hakkar"] = "Sunken Temple";
---	["Throne of Tides"] = "The Abyssal Maw: Throne of the Tides";
-};
-end
-
 
 if L then
---@localization(locale="ptBR", format="lua_additive_table")@
+
 end
