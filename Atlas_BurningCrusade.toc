@@ -1,23 +1,48 @@
 ﻿## Interface: 20506, 50504, 120100
-## Title: Atlas |r|cFF0099FF[Burning Crusade]|r
-## Title-deDE: Atlas |r|cFF0099FF[Burning Crusade]|r
-## Title-ruRU: Atlas |r|cFF0099FF[Burning Crusade]|r
-## Title-zhCN: Atlas |r|cFF0099FF[燃烧的远征]|r
-## Title-zhTW: |r|cFF0099FF[地圖]|rAtlas 燃燒的遠征
-## Notes: Burning Crusade Instances' Maps
-## Notes-deDE: Karten der Instanzen aus Burning Crusade
-## Notes-ruRU: Карты подземелий: Burning Crusade
-## Notes-zhCN: 燃烧的远征副本地图
-## Notes-zhTW: 燃燒的遠征副本地圖模組
-#@end-debug@
+## Title: Atlas Burning Crusade
+## Notes: Burning Crusade instance maps for Atlas
+## Title-deDE: Atlas The Burning Crusade
+## Notes-deDE: Instanzkarten aus The Burning Crusade für Atlas
+## Title-esES: Atlas The Burning Crusade
+## Notes-esES: Mapas de instancias de The Burning Crusade para Atlas
+## Title-esMX: Atlas The Burning Crusade
+## Notes-esMX: Mapas de instancias de The Burning Crusade para Atlas
+## Title-frFR: Atlas The Burning Crusade
+## Notes-frFR: Cartes des instances de The Burning Crusade pour Atlas
+## Title-itIT: Atlas The Burning Crusade
+## Notes-itIT: Mappe delle istanze di The Burning Crusade per Atlas
+## Title-koKR: Atlas 불타는 성전
+## Notes-koKR: Atlas용 불타는 성전 인스턴스 지도
+## Title-ptBR: Atlas The Burning Crusade
+## Notes-ptBR: Mapas de instâncias de The Burning Crusade para Atlas
+## Title-ruRU: Atlas Пылающий поход
+## Notes-ruRU: Карты подземелий и рейдов Пылающего похода для Atlas
+## Title-zhCN: Atlas 燃烧的远征
+## Notes-zhCN: Atlas 的燃烧的远征副本地图
+## Title-zhTW: Atlas 燃燒的遠征
+## Notes-zhTW: Atlas 的燃燒的遠征副本地圖
 ## Version: @project-version@
 ## Author: arith
+## IconTexture: Interface\WorldMap\WorldMap-Icon
+## RequiredDeps: Atlas
+## Category: Map
+## Category-deDE: Karte
+## Category-esES: Mapa
+## Category-esMX: Mapa
+## Category-frFR: Carte
+## Category-itIT: Mappa
+## Category-koKR: 지도
+## Category-ptBR: Mapa
+## Category-ruRU: Карта
+## Category-zhCN: 地图
+## Category-zhTW: 地圖
+## X-Category: Map
 ## X-Date: @project-date-iso@
 ## X-Credits: Dan Gilbert, Lothaer, Dynaletik, dubcat
-## X-Category: Map
-## RequiredDeps: Atlas
-## IconTexture: Interface\WorldMap\WorldMap-Icon
+## X-Website: https://www.curseforge.com/wow/addons/atlas-burningcrusade
+## X-Curse-Project-ID: 33666
+## X-WoWI-ID: 20512
 
 Locale\Locales.xml
 Core\Core.lua
-Core\Data.xml
+Data\Data.xml

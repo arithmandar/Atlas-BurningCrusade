@@ -1,8 +1,7 @@
--- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2011 ~ 2023 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
+	Copyright 2011 ~ 2026 - Arith Hsu, Atlas Team 
 
 	This file is part of Atlas.
 
@@ -30,7 +29,7 @@ local _G = getfenv(0)
 -- ----------------------------------------------------------------------------
 -- AddOn namespace.
 -- ----------------------------------------------------------------------------
-local FOLDER_NAME, private = ...
+local _, private = ...
 
 private.addon_name = "Atlas_BurningCrusade"
 private.module_name = "BurningCrusade"
