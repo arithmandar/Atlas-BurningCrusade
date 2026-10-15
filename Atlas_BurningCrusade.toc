@@ -1,4 +1,4 @@
-﻿## Interface: 20506, 50504, 120100
+﻿## Interface: 20506, 50504, 120105
 ## Title: Atlas Burning Crusade
 ## Notes: Burning Crusade instance maps for Atlas
 ## Title-deDE: Atlas The Burning Crusade
